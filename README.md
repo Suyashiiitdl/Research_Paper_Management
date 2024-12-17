@@ -1,4 +1,4 @@
-# IRD Research Paper Management System
+#Research Paper Management System
 [Report of project](https://github.com/Pourav619/IRD-BTP/blob/main/Vickey_BTP_Report.pdf)
 
 ## Description
@@ -86,9 +86,9 @@ To run this project locally on your machine, follow these steps:
 
 - Upgrade form handling capabilities with frameworks like Formik for improved user interaction and data validation.
 ### Team member
-- Vickey Kumar 2021299 
-- Pourav Surya 2021271
-- Suyash Kumar 2021293
+- Suyash Kumar  
+- Pourav Surya 
+- Vickey Kumar 
 ## Contributions
 
 Contributions are welcome! Please fork the repository and submit a pull request for review.
