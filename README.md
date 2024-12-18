@@ -1,11 +1,11 @@
-#Research Paper Management System
-[Report of project](https://github.com/Pourav619/IRD-BTP/blob/main/Vickey_BTP_Report.pdf)
+# Research Paper Management System
+[Report of project](https://github.com/Suyashiiitdl/Research_Paper_Management/blob/main/Project_Report.pdf)
 
 ## Description
 
 This project is a Research Paper Management System developed for the IRD department. The system allows users to upload, view, edit, and manage metadata for their research papers.
 
-- [Poster_report](https://github.com/Pourav619/IRD-BTP/blob/main/Poster_BTP.pdf)
+- [Poster_report](https://github.com/Suyashiiitdl/Research_Paper_Management/blob/main/Poster_BTP.pdf)
 ## Technologies Used
 
 - Node.js
