@@ -1,0 +1,421 @@
+<div class="d-flex justify-content-between flex-wrap flex-md nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2"><%=username%></h1>
+    
+    <div class="btn-toolbar md-2 mb-md 0">
+        <div class="btn-group me-2">
+            <button class = "btn btn-sm btn-outline-secondary">?</button>
+        </div>
+    </div>
+</div>
+<div class="col py-3">
+    <div class="row">
+        <div class="col">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/Dashboard">Dashboard</a></li>
+                    <li class="breadcrumb-item active">New Paper </li>
+                </ol>
+            </nav>
+        </div>
+        <div class="col text-end fw-lighter">
+            <b>User id  </b>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+    <title>Research Paper Registration</title>
+    <style>
+
+        
+       body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0; /* Adjusted margin */
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Adjusted height */
+}
+
+.container {
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1100px; /* Adjusted max-width */
+    width: 150%; /* Added width for responsiveness */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Rest of your CSS code */
+
+form {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Styles for author and publisher input sections */
+.author-input,
+.publisher-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.author-input input[type="text"],
+.publisher-input input[type="text"] {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.author-input select,
+.author-input input[type="text"],
+.publisher-input input[type="text"] {
+    width: calc(10% - 10px);
+}
+
+.author-input button,
+.publisher-input button {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.author-input button:disabled,
+.publisher-input button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+/* here is css for the uploading the file  */
+/* Style for the file input container */
+.custom-file {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Style for the file input */
+.custom-file-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Style for the file input label */
+.custom-file-label {
+    display: block;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for the error message */
+.error-message {
+    display: block;
+    color: #dc3545;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Research Paper Registration</h1>
+        <form id="registrationForm" action="/sign_upp" method="post" enctype="multipart/form-data">
+            <div class="custom-file mb-3">
+                <input type="file" name="file" id="file" class="custom-file-input" accept=".txt">
+                <label for="file" class="custom-file-label">Choose File</label>
+                <span id="fileError" class="error-message"></span> <!-- Error message container -->
+            </div>
+            <input type="submit" value="Submit" class="btn btn-primary btn-block">
+        </form>
+        
+        <script>
+            // Get the file input element
+            const fileInput = document.getElementById('file');
+        
+            // Add event listener to show selected file name
+            fileInput.addEventListener('change', function() {
+                const fileName = this.files[0].name;
+                const fileLabel = document.querySelector('.custom-file-label');
+                fileLabel.textContent = fileName;
+            });
+        
+            // Add event listener to remove selected file
+            fileInput.addEventListener('click', function() {
+                this.value = null; // Clear the file input value
+                const fileLabel = document.querySelector('.custom-file-label');
+                fileLabel.textContent = 'Choose File';
+            });
+        
+            // Validate file format before form submission
+            document.getElementById('registrationForm').addEventListener('submit', function(event) {
+                const selectedFile = fileInput.files[0];
+                if (selectedFile && selectedFile.name.endsWith('.txt')) {
+                    // File format is correct, continue with form submission
+                    return true;
+                } else {
+                    // Prevent form submission
+                    event.preventDefault();
+                    // Show error message
+                    const fileError = document.getElementById('fileError');
+                    fileError.textContent = 'Please select a .txt file.';
+                    return false;
+                }
+            });
+        </script>
+        
+
+        
+        <form id="registrationForm1" action="/sign_upp1" method="post" enctype="multipart/form-data">
+            <input type="hidden"  name="usernamee" value="<%=username%>">
+            <label for="title">Title:</label>
+            <input type="text" id="Title" name="Title">
+
+            <div id="authorsContainer">
+                <!-- Three author input fields by default -->
+                <div class="author-input">
+                    <input type="text" class="author" name="Authors[]" placeholder="Author name">
+                    <label for="Type">Type</label>
+                    <select name="authorType[]" class="author-type">
+                        <option value="UG">UG</option>
+                        <option value="PG">PG</option>
+                        <option value="Faculty(IIITD)">Faculty(IIITD)</option>
+                        <option value="Faculty(Outside)">Faculty(Outside)</option>
+                    </select>
+                    <label for="Affiliation">Affiliation</label>
+                    <select name="authorStatus[]" class="author-status">
+                        <option value="IIITD">IIITD</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <input type="text" id="aOther" name="aOther" placeholder="Fill College if Affiliation selected Other" value="">
+                    <button type="button" class="remove-author" disabled>-</button>
+                </div>
+            </div>
+
+            <!-- Button to add more authors -->
+            <button type="button" id="addAuthor">Add Author</button>
+
+            <label for="journal">Journal:</label>
+            <input type="text" id="Journal" name="Journal">
+
+            <label for="volume">Volume:</label>
+            <input type="text" id="Volume" name="Volume">
+
+            <label for="pages">Pages:</label>
+            <input type="text" id="Pages" name="Pages">
+
+            <label for="booktitle">Book Title:</label>
+            <input type="text" id="BookTitle" name="BookTitle">
+
+            <label for="organization">Organization:</label>
+            <input type="text" id="Organization" name="Organization">
+
+            <div id="publishersContainer">
+                <!-- Three publisher input fields by default -->
+                <div class="publisher-input">
+                    <input type="text" class="publisher" name="Publishers[]" placeholder="Publisher name">
+                    <button type="button" class="remove-publisher" disabled>-</button>
+                </div>
+                
+            </div>
+            <!-- Button to add more publishers -->
+            <button type="button" id="addPublisher">Add Publisher</button>
+
+            <label for="number">Number:</label>
+            <input type="number" id="Number" name="Number">
+
+            <label for="year">Year:</label>
+            <input type="text" id="Year" name="Year">
+
+            <!-- <label for="publisher">Publisher:</label>
+            <input type="text" id="Publisher" name="Publisher"> -->
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const addAuthorButton = document.getElementById("addAuthor");
+            const removeAuthorButtons = document.querySelectorAll(".remove-author");
+
+            addAuthorButton.addEventListener("click", function () {
+                const authorsContainer = document.getElementById("authorsContainer");
+                const authorInput = document.createElement("div");
+                authorInput.classList.add("author-input");
+                authorInput.innerHTML = `
+                <input type="text" class="author" name="Authors[]" placeholder="Author name">
+                    <label for="Type">Type</label>
+                    <select name="authorType[]" class="author-type">
+                        <option value="UG">UG</option>
+                        <option value="PG">PG</option>
+                        <option value="Faculty(IIITD)">Faculty(IIITD)</option>
+                        <option value="Faculty(Outside)">Faculty(Outside)</option>
+                    </select>
+                    <label for="Affiliation">Affiliation</label>
+                    <select name="authorStatus[]" class="author-status">
+                        <option value="IIITD">IIITD</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <input type="text" id="aOther" name="aOther" placeholder="Fill College if Affiliation selected Other">
+                    <button type="button" class="remove-author">-</button>
+                `;
+                authorsContainer.appendChild(authorInput);
+
+                const newRemoveAuthorButton = authorInput.querySelector(".remove-author");
+                newRemoveAuthorButton.addEventListener("click", function () {
+                    authorInput.remove();
+                    // Disable remove buttons if there is only one author input field left
+                    if (document.querySelectorAll(".author-input").length === 1) {
+                        removeAuthorButtons.forEach(button => {
+                            button.setAttribute("disabled", true);
+                        });
+                    }
+                });
+
+                // // Enable remove buttons if there are more than one author input fields
+                // if (removeAuthorButtons.length === 1) {
+                //     removeAuthorButtons.forEach(button => {
+                //         button.removeAttribute("disabled");
+                //     });
+                // }
+            });
+
+            // Event delegation to handle dynamically added remove buttons
+            document.addEventListener("click", function (event) {
+                if (event.target.classList.contains("remove-author")) {
+                    const authorInput = event.target.parentElement;
+                    authorInput.remove();
+                    // Disable remove buttons if there is only one author input field left
+                    if (document.querySelectorAll(".author-input").length === 1) {
+                        removeAuthorButtons.forEach(button => {
+                            button.setAttribute("disabled", true);
+                        });
+                    }
+                }
+            });
+
+            const addPublisherButton = document.getElementById("addPublisher");
+            const removePublisherButtons = document.querySelectorAll(".remove-publisher");
+
+            addPublisherButton.addEventListener("click", function () {
+                const publishersContainer = document.getElementById("publishersContainer");
+                const publisherInput = document.createElement("div");
+                publisherInput.classList.add("publisher-input");
+                publisherInput.innerHTML = `
+                    <input type="text" class="publisher" name="Publishers[]" placeholder="Publisher name">
+                    <button type="button" class="remove-publisher">-</button>
+                `;
+                publishersContainer.appendChild(publisherInput);
+
+                const newRemovePublisherButton = publisherInput.querySelector(".remove-publisher");
+                newRemovePublisherButton.addEventListener("click", function () {
+                    publisherInput.remove();
+                    // Disable remove buttons if there is only one publisher input field left
+                    if (document.querySelectorAll(".publisher-input").length === 1) {
+                        removePublisherButtons.forEach(button => {
+                            button.setAttribute("disabled", true);
+                        });
+                    }
+                });
+
+                // // Enable remove buttons if there are more than one publisher input fields
+                // if (removePublisherButtons.length === 1) {
+                //     removePublisherButtons.forEach(button => {
+                //         button.removeAttribute("disabled");
+                //     });
+                // }
+            });
+
+            // Event delegation to handle dynamically added remove buttons for publishers
+            document.addEventListener("click", function (event) {
+                if (event.target.classList.contains("remove-publisher")) {
+                    const publisherInput = event.target.parentElement;
+                    publisherInput.remove();
+                    // Disable remove buttons if there is only one publisher input field left
+                    if (document.querySelectorAll(".publisher-input").length === 1) {
+                        removePublisherButtons.forEach(button => {
+                            button.setAttribute("disabled", true);
+                        });
+                    }
+                }
+            });
+        });
+
+    
+    
+
+
+    </script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>

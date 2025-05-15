@@ -1,0 +1,127 @@
+
+<body>
+    <div class="d-flex justify-content-between flex-wrap flex-md nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">Dashboard Username <%= data.name %></h1>
+       
+        <input type="hidden" name="username12" value="<%= data.name%>">
+       <div class="btn-toolbar md-2 mb-md 0">
+           <div class="btn-group me-2">
+               <a href="/add?username=<%= data.name %>" class="btn btn-sm btn-outline-secondary">+ New Paper</a>
+           </div>
+       </div>
+       </div>
+       
+       <!-- <%= messages %> -->
+       <!-- Table -->
+       <table class="table">
+         <!-- Table header -->
+         <thead class="thead-dark">
+             <tr>
+                 <th>Title</th>
+                 <th>Authors</th>
+                 <th>Journal</th>
+                 <th>Year</th>
+                 <th>Publisher</th>
+                 <th>Number</th>
+                 <th>Action</th>
+             </tr>
+         </thead>
+         <!-- Table body -->
+         <tbody>
+             <% for(var i = customers.length - 1; i >= 0; i--) { %>
+                 <tr>
+                     <!-- Table data -->
+                     <td><%= customers[i].Title %></td>
+                     <td><%= customers[i].Authors.join(":::") %></td>
+                     <td><%= customers[i].Journal %></td>
+                     <td><%= customers[i].Year %></td>
+                     <td><%= customers[i].Publisher %></td>
+                     <td><%= customers[i].Number %></td>
+                     <td class="text-end">
+                         <!-- Action buttons -->
+                         <div class="d-flex flex-row justify-content-end gap-2">
+                             <!-- View button -->
+                             <a href="/view/<%= customers[i]._id %>" type="button" class="btn btn-primary btn-small">
+                                 <i class="bi bi-eye"></i>
+                             </a>
+                             <!-- Edit button -->
+                             <a href="/edit/<%= customers[i]._id %>" type="button" class="btn btn-warning btn-small">
+                                 <i class="bi bi-pencil"></i>
+                             </a>
+                             <!-- Delete button -->
+                             <button type="button" class="btn btn-danger btn-small" data-bs-toggle="modal" data-bs-target="#deleteModal<%= customers[i]._id %>">
+                                 <i class="bi bi-person-x"></i>
+                             </button>
+                         </div>
+                     </td>
+                 </tr>
+                 <!-- Modal -->
+                 <div class="modal fade" tabindex="-1" role="dialog" id="deleteModal<%= customers[i]._id %>">
+                     <div class="modal-dialog" role="document">
+                         <div class="modal-content">
+                             <div class="modal-header">
+                                 <h5 class="modal-title">Delete Customer</h5>
+                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                             </div>
+                             <div class="modal-body">
+                                 <p>Are you sure you want to delete the customer <b><%= customers[i].Title %></b>?</p>
+                             </div>
+                             <div class="modal-footer">
+                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                 <form action="/edit/<%= customers[i]._id %>?_method=DELETE" method="POST">
+                                     <button type="submit" class="btn btn-danger">Delete</button>
+                                 </form>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             <% } %>
+         </tbody>
+       </table>
+       
+       <% if (customers.length > 0) { %>
+        <nav aria-label="Dashboard Pagination">
+          <ul class="pagination justify-content-center mt-5">
+      
+            <% if (current == 1) { %>
+              <li class="page-item disabled"><a href="#" class="page-link">First</a></li>
+            <% } else { %>
+              <li class="page-item"><a href="/Dashboard?page=1" class="page-link">First</a></li>
+            <% } %>
+      
+            <% var i = (Number(current) > 5 ? Number(current) - 4 : 1) %>
+            <% if(i !== 1) { %>
+              <li class="page-item disabled"><a href="#" class="page-link">...</a></li>
+            <% } %>
+      
+            <% for(; i <= (Number(current) + 4) && i <= pages; i++ ) { %>
+              <% if (i == current) { %>
+                <li class="page-item disabled"><a href="#" class="page-link"><%= i %></a></li>
+              <% } else { %>
+                <li class="page-item"><a href="/Dashboard?page=<%= i %>" class="page-link"><%= i %></a></li>
+              <% } %>
+              <% if (i == Number(current) + 4 && i < pages) { %>
+                <li class="page-item disabled"><a href="#" class="page-link">...</a></li>
+              <% } %>
+            <% } %>
+      
+            <% if (current == pages) { %>
+              <li class="page-item disabled"><a href="#" class="page-link">Last</a></li>
+            <% } else { %>
+              <li class="page-item"><a href="/Dashboard?page=<%= pages %>" class="page-link">Last</a></li>
+            <% } %>
+      
+          </ul>
+        </nav>
+      <% } %>
+    </body>  
+
+
+
+
+
+
+
+
+
+

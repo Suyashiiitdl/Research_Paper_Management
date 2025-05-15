@@ -1,0 +1,1829 @@
+@article{guo2008using,
+  title={Using immersive video to evaluate future traveller information systems},
+  author={Guo, Amy Weihong and Blythe, Phil and Olivier, Patrick and Singh, Pushpendra and Nam, Ha and others},
+  journal={IET Intelligent Transport Systems},
+  year={2008},
+  publisher={Newcastle University}
+}
+
+@inproceedings{uther2005mac,
+  title={Mac: An adaptive, perception-based speech remediation software for mobile devices},
+  author={Uther, Maria and Singh, Pushpendra and Zipitria, Iraide and Uther, James},
+  booktitle={AIED Workshop on Student Modelling for Language Tutors},
+  year={2005}
+}
+
+@article{bajaj2017study,
+  title={A study of existing Ontologies in the IoT-domain},
+  author={Bajaj, Garvita and Agarwal, Rachit and Singh, Pushpendra and Georgantas, Nikolaos and Issarny, Valerie},
+  journal={arXiv preprint arXiv:1707.00112},
+  year={2017}
+}
+
+@inproceedings{bajaj2015sahyog,
+  title={Sahyog: A middleware for mobile collaborative applications},
+  author={Bajaj, Garvita and Singh, Pushpendra},
+  booktitle={2015 7th International Conference on New Technologies, Mobility and Security (NTMS)},
+  pages={1--5},
+  year={2015},
+  organization={IEEE}
+}
+
+@misc{arjunan2015sensoract,
+  title={Sensoract: a decentralized and scriptable middleware for smart energy buildings. In 2015 IEEE 12th Intl Conf on Ubiquitous Intelligence and Computing and 2015 IEEE 12th Intl Conf on Autonomic and Trusted Computing and 2015 IEEE 15th Intl Conf on Scalable Computing and Communications and Its Associated Workshops (UICATC-ScalCom)},
+  author={Arjunan, Pandarasamy and Saha, Manaswi and Choi, Haksoo and Gulati, Manoj and Singh, Amarjeet and Singh, Pushpendra and Srivastava, Mani B},
+  year={2015},
+  publisher={IEEE}
+}
+
+@inproceedings{tuli2020menstrual,
+  title={Menstrual (Im) mobilities and safe spaces},
+  author={Tuli, Anupriya and Chopra, Shaan and Singh, Pushpendra and Kumar, Neha},
+  booktitle={Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems},
+  pages={1--15},
+  year={2020}
+}
+
+@inproceedings{rashid2018monitor,
+  title={Monitor: An abnormality detection approach in buildings energy consumption},
+  author={Rashid, Haroon and Singh, Pushpendra},
+  booktitle={2018 IEEE 4th international conference on collaboration and internet computing (CIC)},
+  pages={16--25},
+  year={2018},
+  organization={IEEE}
+}
+
+@inproceedings{kiehn2014causal,
+  title={A causal checkpointing algorithm for mobile computing environments},
+  author={Kiehn, Astrid and Raj, Pranav and Singh, Pushpendra},
+  booktitle={Distributed Computing and Networking: 15th International Conference, ICDCN 2014, Coimbatore, India, January 4-7, 2014. Proceedings 15},
+  pages={134--148},
+  year={2014},
+  organization={Springer Berlin Heidelberg}
+}
+
+@article{chandra2018have,
+  title={I have no peace of mind—psychosocial distress expressed by rural women living with HIV in India as part of a mobile health intervention—a qualitative study},
+  author={Chandra, Prabha S and Parameshwaran, Soumya and Satyanarayana, Veena A and Varghese, Meiya and Liberti, Lauren and Duggal, Mona and Singh, Pushpendra and Jeon, Sangchoon and Reynolds, Nancy R},
+  journal={Archives of women's mental health},
+  volume={21},
+  pages={525--531},
+  year={2018},
+  publisher={Springer Vienna}
+}
+
+@inproceedings{asthana2012tring,
+  title={Tring! tring!-an exploration and analysis of interactive voice response systems},
+  author={Asthana, Siddhartha and Singh, Pushpendra and Kumaraguru, Ponnurangam and Singh, Amarjeet and Naik, Vinayak},
+  booktitle={4th International Conference on Human Computer Interaction},
+  volume={4},
+  year={2012}
+}
+
+@article{tuli2018learning,
+  title={Learning from and with menstrupedia: Towards menstrual health education in India},
+  author={Tuli, Anupriya and Chopra, Shaan and Kumar, Neha and Singh, Pushpendra},
+  journal={Proceedings of the ACM on Human-Computer Interaction},
+  volume={2},
+  number={CSCW},
+  pages={1--20},
+  year={2018},
+  publisher={ACM New York, NY, USA}
+}
+
+@phdthesis{singh2015enabling,
+  title={Enabling ubiquitous applications using existing infrastructure},
+  author={Singh, Digvijay and Singh, Pushpendra},
+  year={2015}
+}
+
+@article{yadav2019leap,
+  title={LEAP: Scaffolding collaborative learning of community health workers in India},
+  author={Yadav, Deepika and Bhandari, Anushka and Singh, Pushpendra},
+  journal={Proceedings of the ACM on Human-Computer Interaction},
+  volume={3},
+  number={CSCW},
+  pages={1--27},
+  year={2019},
+  publisher={ACM New York, NY, USA}
+}
+
+@inproceedings{srinivasan2013airavat,
+  title={Airavat: An automated system to increase transparency and accountability in social welfare schemes in India},
+  author={Srinivasan, Vivek and Vardhan, Vibhore and Kar, Snigdha and Asthana, Siddhartha and Narayanan, Rajendran and Singh, Pushpendra and Chakraborty, Dipanjan and Singh, Amarjeet and Seth, Aaditeshwar},
+  booktitle={Proceedings of the Sixth International Conference on Information and Communications Technologies and Development: Notes-Volume 2},
+  pages={151--154},
+  year={2013}
+}
+
+@inproceedings{bakhshi2013mosen,
+  title={Mosen: a middleware for mobile sensor programming},
+  author={Bakhshi, Kshitiz and Jain, Nishant and Singh, Pushpendra and Ahuja, Arjun},
+  booktitle={Proceedings of the 3rd ACM Symposium on Computing for Development},
+  pages={1--2},
+  year={2013}
+}
+
+@article{arjunan2015openban,
+  title={Openban: An open building analytics middleware for smart buildings},
+  author={Arjunan, Pandarasamy and Srivastava, Mani and Singh, Amarjeet and Singh, Pushpendra},
+  journal={EAI Endorsed Transactions on Scalable Information Systems},
+  volume={2},
+  number={7},
+  pages={70--79},
+  year={2015}
+}
+
+@inproceedings{asthana2013exploring,
+  title={Exploring the usability of interactive voice response system's design},
+  author={Asthana, Siddhartha and Singh, Pushpendra and Singh, Amarjeet},
+  booktitle={Proceedings of the 3rd ACM Symposium on Computing for Development},
+  pages={1--2},
+  year={2013}
+}
+
+@inproceedings{uther2007mobile,
+  title={Mobile Adaptive CALL (MAC): A lightweight speech-based intervention for mobile language learners},
+  author={Uther, Maria and Uther, James and Athanasopoulos, Panos and Singh, Pushpendra and Akahane-Yamada, Reiko},
+  booktitle={Eighth Annual Conference of the International Speech Communication Association},
+  year={2007}
+}
+
+@inproceedings{rashid2017poster,
+  title={Poster: Energy disaggregation for identifying anomalous appliance},
+  author={Rashid, Haroon and Singh, Pushpendra},
+  booktitle={Proceedings of the Fourth ACM International Conference on Embedded Systems for Energy-Efficient Built Environments, BuildSys},
+  volume={17},
+  year={2017}
+}
+
+@article{tuli2019sa,
+  title={“It’sa girl thing” Examining Challenges and Opportunities around Menstrual Health Education in India},
+  author={Tuli, Anupriya and Dalvi, Shruti and Kumar, Neha and Singh, Pushpendra},
+  journal={ACM Transactions on Computer-Human Interaction (TOCHI)},
+  volume={26},
+  number={5},
+  pages={1--24},
+  year={2019},
+  publisher={ACM New York, NY, USA}
+}
+
+@inproceedings{asthana2013assessing,
+  title={Assessing designs of interactive voice response systems for better usability},
+  author={Asthana, Siddhartha and Singh, Pushpendra and Singh, Amarjeet},
+  booktitle={Design, User Experience, and Usability. Design Philosophy, Methods, and Tools: Second International Conference, DUXU 2013, Held as Part of HCI International 2013, Las Vegas, NV, USA, July 21-26, 2013, Proceedings, Part I 2},
+  pages={183--192},
+  year={2013},
+  organization={Springer Berlin Heidelberg}
+}
+
+@article{bajaj20184w1h,
+  title={4W1H in IoT semantics},
+  author={Bajaj, Garvita and Agarwal, Rachit and Singh, Pushpendra and Georgantas, Nikolaos and Issarny, Val{\'e}rie},
+  journal={IEEE Access},
+  volume={6},
+  pages={65488--65506},
+  year={2018},
+  publisher={IEEE}
+}
+
+@inproceedings{tuli2016harmony,
+  title={Harmony: close knitted mhealth assistance for patients, caregivers and doctors for managing SMIs},
+  author={Tuli, Anupriya and Singh, Pushpendra and Sood, Mamta and Deb, Koushik Sinha and Jain, Siddharth and Jain, Abhishek and Wason, Manan and Chadda, Rakesh and Verma, Rohit},
+  booktitle={Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing: Adjunct},
+  pages={1144--1152},
+  year={2016}
+}
+
+@inproceedings{singh2003fault,
+  title={Fault Tolerance and Availability in Mobile Computing Environment.},
+  author={Singh, Pushpendra and Cabillic, Gilbert},
+  booktitle={PDPTA},
+  pages={1261--1266},
+  year={2003}
+}
+
+@incollection{guo2016evaluation,
+  title={An evaluation of future traveller information system and its effectiveness in demand management schemes},
+  author={Guo, Amy Weihong and Blythe, Phil and Olivier, Patrick and Singh, Pushpendra and Ha, Hai Nam},
+  booktitle={Travel Demand Management and Road User Pricing},
+  pages={109--131},
+  year={2016},
+  publisher={Routledge}
+}
+
+@inproceedings{arjunan2012sensoract,
+  title={Sensoract: a privacy and security aware federated middleware for building management},
+  author={Arjunan, Pandarasamy and Batra, Nipun and Choi, Haksoo and Singh, Amarjeet and Singh, Pushpendra and Srivastava, Mani B},
+  booktitle={Proceedings of the Fourth ACM Workshop on Embedded Sensing Systems for Energy-Efficiency in Buildings},
+  pages={80--87},
+  year={2012}
+}
+
+@article{sood2016mobile,
+  title={Mobile health (mHealth) in mental health: scope and applications in low-resource settings},
+  author={Sood, Mamta and Chadda, Rakesh Kumar and Singh, Pushpendra},
+  journal={The National medical journal of India},
+  volume={29},
+  number={6},
+  pages={341},
+  year={2016},
+  publisher={Medknow Publications \& Media Pvt. Ltd.}
+}
+
+@inproceedings{yadav2012low,
+  title={Low energy and sufficiently accurate localization for non-smartphones},
+  author={Yadav, Kuldeep and Naik, Vinayak and Singh, Amarjeet and Singh, Pushpendra and Chandra, Umesh},
+  booktitle={2012 IEEE 13th International Conference on Mobile Data Management},
+  pages={212--221},
+  year={2012},
+  organization={IEEE}
+}
+
+@inproceedings{guo2006assessing,
+  title={Assessing future traveller information systems},
+  author={Guo, W and Blythe, Philip and Olivier, Patrick and Singh, Pushpendra and Ha, Hai Nam and Jackson, Daniel G and Heslop, Philip},
+  booktitle={13th World Congress on Intelligent Transport Systems and Services, London},
+  year={2006}
+}
+
+@inproceedings{asthana2013mvoice,
+  title={Mvoice: a mobile based generic ict tool},
+  author={Asthana, Siddhartha and Singh, Pushpendra},
+  booktitle={Proceedings of the Sixth International Conference on Information and Communications Technologies and Development: Notes-Volume 2},
+  pages={5--8},
+  year={2013}
+}
+
+@inproceedings{arjunan2013sensoract,
+  title={Sensoract: Design and implementation of fine-grained sensing and control sharing in buildings},
+  author={Arjunan, Pandarasamy and Saha, Manaswi and Gulati, Manoj and Batra, Nipun and Singh, Amarjeet and Singh, Pushpendra},
+  booktitle={the poster track of 10th USENIX Symposium on Networked Systems Design and Implementation (NSDI’13)},
+  year={2013}
+}
+
+@inproceedings{kazakos2016real,
+  title={A real-time ivr platform for community radio},
+  author={Kazakos, Konstantinos and Asthana, Siddhartha and Balaam, Madeline and Duggal, Mona and Holden, Amey and Jamir, Limalemla and Kannuri, Nanda Kishore and Kumar, Saurabh and Manindla, Amarendar Reddy and Manikam, Subhashini Arcot and others},
+  booktitle={Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems},
+  pages={343--354},
+  year={2016}
+}
+
+@article{angaritacic,
+  title={CIC 2018 Technical Committee},
+  author={Angarita, Rafael and Baracaldo, Nathalie and Baron, Benjamin and Bennaceur, Amel and Bertino, Elisa and Capra, Licia and Carminati, Barbara and Casati, Fabio and Chen, Shu-Ching and Chhetri, Mohan Baruwal and others}
+}
+
+@inproceedings{singh2006immersive,
+  title={Immersive video as a rapid prototyping and evaluation tool for mobile and ambient applications},
+  author={Singh, Pushpendra and Ha, Hai Nam and Kuang, Zhiwen and Olivier, Patrick and Kray, Christian and Blythe, Phil and James, Phil},
+  booktitle={Proceedings of the 8th conference on Human-computer interaction with mobile devices and services},
+  pages={264--264},
+  year={2006}
+}
+
+@article{wason2016middleware,
+  title={Middleware for crowd sensing systems},
+  author={Wason, Manan and Singh, Pushpendra},
+  year={2016}
+}
+
+@inproceedings{singh2003successive,
+  title={Successive Checkpointing Approach for Mobile Computing Environment.},
+  author={Singh, Pushpendra and Cabillic, Gilbert},
+  booktitle={International Conference on Wireless Networks},
+  pages={153--159},
+  year={2003}
+}
+
+@inproceedings{singh2003checkpointing,
+  title={A checkpointing algorithm for mobile computing environment},
+  author={Singh, Pushpendra and Cabillic, Gilbert},
+  booktitle={Personal Wireless Communications: IFIP-TC6 8th International Conference, PWC 2003, Venice, Italy, September 23-25, 2003. Proceedings 8},
+  pages={65--74},
+  year={2003},
+  organization={Springer Berlin Heidelberg}
+}
+
+@article{singh2006rapid,
+  title={Rapid prototyping and evaluation of intelligent environments using immersive video},
+  author={Singh, Pushpendra and Ha, Hai Nam and Olivier, Patrick and Kray, Christian and Kuang, Zhiwen and Guo, Amy Weihong and Blythe, Phil and James, Phil},
+  journal={MODIE},
+  pages={36},
+  year={2006}
+}
+
+@inproceedings{asthana2015data,
+  title={Data driven usability: A case for adaptive interfaces in voice based menu systems},
+  author={Asthana, Siddhartha and Singh, Pushpendra},
+  booktitle={Proceedings of the 15th New Zealand Conference on Human-Computer Interaction},
+  pages={57--64},
+  year={2015}
+}
+
+@article{mohan2015ccncheck,
+  title={Ccncheck: Enabling checkpointed distributed applications in content centric networks},
+  author={Mohan, Nitinder and Singh, Pushpendra},
+  journal={arXiv preprint arXiv:1506.00391},
+  year={2015}
+}
+
+@inproceedings{wadhwa2015pub,
+  title={A pub/sub based architecture to support public healthcare data exchange},
+  author={Wadhwa, Rakshit and Mehra, Apurv and Singh, Pushpendra and Singh, Meenu},
+  booktitle={2015 7th International Conference on Communication Systems and Networks (COMSNETS)},
+  pages={1--6},
+  year={2015},
+  organization={IEEE}
+}
+
+@inproceedings{bajaj2015sensing,
+  title={Sensing human activity for assessing participation in evacuation drills},
+  author={Bajaj, Garvita and Singh, Pushpendra},
+  booktitle={Adjunct Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2015 ACM International Symposium on Wearable Computers},
+  pages={1423--1432},
+  year={2015}
+}
+
+@inproceedings{bajaj2019depth,
+  title={An in-depth analysis of the impact of battery usage patterns on performance of task allocation algorithms in sparse mobile crowdsensing},
+  author={Bajaj, Garvita and Singh, Pushpendra},
+  booktitle={Proceedings of the 22nd International ACM Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems},
+  pages={297--306},
+  year={2019}
+}
+
+@inproceedings{yadav2019addressing,
+  title={Addressing lack of health experts: Scaffolding collaborative learning of community health workers in india},
+  author={Yadav, Deepika and Singh, Pushpendra},
+  year={2019},
+  organization={CSCW}
+}
+
+@article{diwan2018energy,
+  title={Energy consumption prediction of residential buildings},
+  author={Diwan, Parikshit and Singh, Pushpendra},
+  year={2018},
+  publisher={IIIT-Delhi}
+}
+
+@inproceedings{asthana2015maareech,
+  title={Maareech: Usability testing tool for voice response system using xml based user models},
+  author={Asthana, Siddhartha and Singh, Pushpendra},
+  booktitle={Design, User Experience, and Usability: Design Discourse: 4th International Conference, DUXU 2015, Held as Part of HCI International 2015, Los Angeles, CA, USA, August 2--7, 2015, Proceedings, Part I},
+  pages={101--112},
+  year={2015},
+  organization={Springer International Publishing}
+}
+
+@phdthesis{gupta2015women,
+  title={Women safety and technology: analysis of women distress helpline for efficient technological intervention},
+  author={Gupta, Parul and Singh, Pushpendra and Goyal, Vikram},
+  year={2015}
+}
+
+@inproceedings{kray2007taming,
+  title={Taming context: A key challenge in evaluating the usability of ubiquitous systems},
+  author={Kray, Christian and Olivier, Patrick and Guo, Amy Weihong and Singh, Pushpendra and Ha, Hai Nam and Blythe, Phil},
+  booktitle={Proc. USE-Workshop at Ubicomp},
+  pages={13--18},
+  year={2007}
+}
+
+@inproceedings{kaur2019engagement,
+  title={Engagement of pregnant women and mothers over WhatsApp: Challenges and opportunities involved},
+  author={Kaur, Jasmeet and Wani, Asra Sakeen and Singh, Pushpendra},
+  booktitle={Conference Companion Publication of the 2019 on Computer Supported Cooperative Work and Social Computing},
+  pages={236--240},
+  year={2019}
+}
+
+@inproceedings{yadav2017sangoshthi,
+  title={Sangoshthi: Empowering community health workers through peer learning in rural india},
+  author={Yadav, Deepika and Singh, Pushpendra and Montague, Kyle and Kumar, Vijay and Sood, Deepak and Balaam, Madeline and Sharma, Drishti and Duggal, Mona and Bartindale, Tom and Varghese, Delvin and others},
+  booktitle={Proceedings of the 26th International Conference on World Wide Web},
+  pages={499--508},
+  year={2017}
+}
+
+@inproceedings{guo2006future,
+  title={Future traveller information systems: impacts on modal shift},
+  author={Guo, Amy Weihong and Blythe, PT and Olivier, Patrick and Singh, Pushpendra and Ha, Hai Nam and Jackson, Daniel G and James, Philip},
+  booktitle={ASK IT Conference},
+  year={2006},
+  organization={Newcastle University}
+}
+
+@article{gupta2017mobile,
+  title={Mobile app to manage and advertise innovation, research and development activities at IIIT DELHI},
+  author={Gupta, Saloni and Saxena, Simran and Singh, Pushpendra},
+  year={2017}
+}
+
+@inproceedings{wadhwa2015emr,
+  title={An EMR-enabled medical sensor data collection framework},
+  author={Wadhwa, Rakshit and Singh, Pushpendra and Singh, Meenu and Kumar, Saurabh},
+  booktitle={2015 7th International Conference on Communication Systems and Networks (COMSNETS)},
+  pages={1--6},
+  year={2015},
+  organization={IEEE}
+}
+
+@phdthesis{asthana2017building,
+  title={Building efficient mobile systems and applications for supporting information exchange in resource limited settings},
+  author={Asthana, Siddhartha and Singh, Pushpendra},
+  year={2017},
+  school={IIIT-Delhi}
+}
+
+@inproceedings{asthana2013usability,
+  title={A usability study of adaptive interfaces for interactive voice response system},
+  author={Asthana, Siddhartha and Singh, Pushpendra and Singh, Amarjeet},
+  booktitle={Proceedings of the 3rd ACM Symposium on Computing for Development},
+  pages={1--2},
+  year={2013}
+}
+
+@incollection{asthana2013design,
+  title={Design and evaluation of adaptive interfaces for ivr systems},
+  author={Asthana, Siddhartha and Singh, Pushpendra and Singh, Amarjeet},
+  booktitle={CHI'13 Extended Abstracts on Human Factors in Computing Systems},
+  pages={1713--1718},
+  year={2013}
+}
+
+@inproceedings{rashid2018rimor,
+  title={Rimor: Towards identifying anomalous appliances in buildings},
+  author={Rashid, Haroon and Batra, Nipun and Singh, Pushpendra},
+  booktitle={Proceedings of the 5th Conference on Systems for Built Environments},
+  pages={33--42},
+  year={2018}
+}
+
+@inproceedings{arjunan2015sensoract,
+  title={SensorAct: a decentralized and scriptable middleware for smart energy buildings},
+  author={Arjunan, Pandarasamy and Saha, Manaswi and Choi, Haksoo and Gulati, Manoj and Singh, Amarjeet and Singh, Pushpendra and Srivastava, Mani B},
+  booktitle={2015 IEEE 12th Intl Conf on Ubiquitous Intelligence and Computing and 2015 IEEE 12th Intl Conf on Autonomic and Trusted Computing and 2015 IEEE 15th Intl Conf on Scalable Computing and Communications and Its Associated Workshops (UIC-ATC-ScalCom)},
+  pages={11--19},
+  year={2015},
+  organization={IEEE}
+}
+
+@phdthesis{aneja2016analysing,
+  title={Analysing space utilization using indoor localization},
+  author={Aneja, Joy and Singh, Pushpendra},
+  year={2016}
+}
+
+@article{duggal2019drug,
+  title={Drug-Eluting Stent Use Among Low-Income Patients in Maharashtra After Statewide Price Reductions: Lessons for India?},
+  author={Duggal, Bhanu and Gokul, Brinda and Duggal, Mona and Saunik, Sujata and Singh, Pushpendra and Agrawal, Anurag and Singh, Karandeep and Wadhera, Priya and Anupindi, Ravi and Nallamothu, Brahmajee K},
+  journal={Circulation: Cardiovascular Interventions},
+  volume={12},
+  number={4},
+  pages={e007757},
+  year={2019},
+  publisher={Am Heart Assoc}
+}
+
+@inproceedings{uther2005mobile,
+  title={Mobile Adaptive CALL (MAC): A case-study in developing a mobile learning application for speech/audio language training},
+  author={Uther, Maria and Zipitria, Iraide and Uther, James and Singh, Pushpendra},
+  booktitle={IEEE International Workshop on Wireless and Mobile Technologies in Education (WMTE'05)},
+  pages={5--pp},
+  year={2005},
+  organization={IEEE}
+}
+
+@inproceedings{asthana2015survival,
+  title={Survival analysis: objective assessment of wait time in HCI},
+  author={Asthana, Siddhartha and Singh, Pushpendra and Gupta, Parul},
+  booktitle={Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems},
+  pages={367--376},
+  year={2015}
+}
+
+@inproceedings{batra2013experiences,
+  title={Experiences with occupancy based building management systems},
+  author={Batra, Nipun and Arjunan, Pandarasamy and Singh, Amarjeet and Singh, Pushpendra},
+  booktitle={2013 IEEE Eighth International Conference on Intelligent Sensors, Sensor Networks and Information Processing},
+  pages={153--158},
+  year={2013},
+  organization={IEEE}
+}
+
+@inproceedings{pandey2020exploring,
+  title={Exploring Automated Q\&A Support System for Maternal and Child Health in Rural India},
+  author={Pandey, Ankur and Mutreja, Inshita and Brar, Saru and Singh, Pushpendra},
+  booktitle={Proceedings of the 3rd ACM SIGCAS Conference on Computing and Sustainable Societies},
+  pages={349--350},
+  year={2020}
+}
+
+@inproceedings{singh2011improving,
+  title={Improving the efficiency of healthcare delivery system in underdeveloped rural areas},
+  author={Singh, Amarjeet and Naik, Vinayak and Lal, Sangeeta and Sengupta, Raja and Saxena, Deepak and Singh, Pushpendra and Puri, Ankur},
+  booktitle={2011 Third International Conference on Communication Systems and Networks (COMSNETS 2011)},
+  pages={1--6},
+  year={2011},
+  organization={IEEE}
+}
+
+@article{bhandari2018developing,
+  title={Developing web-based systems for supporting mobile-based peer learning},
+  author={Bhandari, Anushka and Singh, Pushpendra},
+  year={2018},
+  publisher={IIITD-Delhi}
+}
+
+@inproceedings{rashid2017want,
+  title={Want to reduce energy consumption? don't depend on the consumers!},
+  author={Rashid, Haroon and Mammen, Priyanka Mary and Singh, Siddharth and Ramamritham, Krithi and Singh, Pushpendra and Shenoy, Prashant},
+  booktitle={Proceedings of the 4th ACM International Conference on Systems for Energy-Efficient Built Environments},
+  pages={1--4},
+  year={2017}
+}
+
+@article{batra2014data,
+  title={Data driven energy efficiency in buildings},
+  author={Batra, Nipun and Singh, Amarjeet and Singh, Pushpendra and Dutta, Haimonti and Sarangan, Venkatesh and Srivastava, Mani},
+  journal={arXiv preprint arXiv:1404.7227},
+  year={2014}
+}
+
+@inproceedings{bennaceur2009ibicoop,
+  title={The iBICOOP middleware: Enablers and services for emerging pervasive computing environments},
+  author={Bennaceur, Amel and Singh, Pushpendra and Raverdy, Pierre-Guillaume and Issarny, Val{\'e}rie},
+  booktitle={2009 IEEE International Conference on Pervasive Computing and Communications},
+  pages={1--6},
+  year={2009},
+  organization={IEEE}
+}
+
+@article{sinha2018india,
+  title={Is India ready for mental health apps (MHApps)? A quantitative-qualitative exploration of caregivers’ perspective on smartphone-based solutions for managing severe mental illnesses in low resource settings},
+  author={Sinha Deb, Koushik and Tuli, Anupriya and Sood, Mamta and Chadda, Rakesh and Verma, Rohit and Kumar, Saurabh and Ganesh, Ragul and Singh, Pushpendra},
+  journal={PloS one},
+  volume={13},
+  number={9},
+  pages={e0203353},
+  year={2018},
+  publisher={Public Library of Science San Francisco, CA USA}
+}
+
+@inproceedings{gupta2014making,
+  title={Making organizations pervasive using existing infrastructure: Case study of a university},
+  author={Gupta, Utkarsh and Khurana, Rushil and Singh, Pushpendra},
+  booktitle={Proceedings of the 6th IBM Collaborative Academia Research Exchange Conference (I-CARE) on I-CARE 2014},
+  pages={1--4},
+  year={2014}
+}
+
+@inproceedings{uther2005mobile,
+  title={Mobile Adaptive CALL (MAC): An adaptive s/w for computer assisted language learning},
+  author={Uther, Maria and Singh, Pushpendra and Uther, James},
+  booktitle={ICPS'05. Proceedings. International Conference on Pervasive Services, 2005.},
+  pages={413--416},
+  year={2005},
+  organization={IEEE}
+}
+
+@inproceedings{bhardwaj2011melos,
+  title={MELOS: a low-cost and low-energy generic sensing attachment for mobile phones},
+  author={Bhardwaj, Abhishek and Arjunan, Pandarasamy and Singh, Amarjeet and Naik, Vinayak and Singh, Pushpendra},
+  booktitle={Proceedings of the 5th ACM workshop on Networked systems for developing regions},
+  pages={27--32},
+  year={2011}
+}
+
+@article{reynolds2016mahila,
+  title={MAHILA: a protocol for evaluating a nurse-delivered mHealth intervention for women with HIV and psychosocial risk factors in India},
+  author={Reynolds, Nancy R and Satyanarayana, Veena and Duggal, Mona and Varghese, Meiya and Liberti, Lauren and Singh, Pushpendra and Ranganathan, Mohini and Jeon, Sangchoon and Chandra, Prabha S},
+  journal={BMC health services research},
+  volume={16},
+  number={1},
+  pages={1--9},
+  year={2016},
+  publisher={BioMed Central}
+}
+
+@inproceedings{bajaj2015toward,
+  title={Toward enabling convenient urban transit through mobile crowdsensing},
+  author={Bajaj, Garvita and Bouloukakis, Georgios and Pathak, Animesh and Singh, Pushpendra and Georgantas, Nikolaos and Issarny, Val{\'e}rie},
+  booktitle={2015 IEEE 18th International Conference on Intelligent Transportation Systems},
+  pages={290--295},
+  year={2015},
+  organization={IEEE}
+}
+
+@article{rashid2019can,
+  title={Can non-intrusive load monitoring be used for identifying an appliance’s anomalous behaviour?},
+  author={Rashid, Haroon and Singh, Pushpendra and Stankovic, Vladimir and Stankovic, Lina},
+  journal={Applied energy},
+  volume={238},
+  pages={796--805},
+  year={2019},
+  publisher={Elsevier}
+}
+
+@article{sharma2019mobile,
+  title={Mobile applications for supporting people with schizophrenia},
+  author={Sharma, Shreya and Batabayal, Ashutosh and Singh, Pushpendra},
+  year={2019},
+  publisher={IIITD-Delhi}
+}
+
+@incollection{yadav2010alternative,
+  title={Alternative localization approach for mobile phones without gps},
+  author={Yadav, Kuldeep and Naik, Vinayak and Singh, Pushpendra and Singh, Amarjeet},
+  booktitle={Middleware'10 Posters and Demos Track},
+  pages={1--4},
+  year={2010}
+}
+
+@article{maji2017escort,
+  title={Escort bot for the visually challenged},
+  author={Maji, Kartik and Sinha, Shubham and Aggarwal, Taruvar and Singh, Pushpendra},
+  year={2017}
+}
+
+@inproceedings{singh2005autonomic,
+  title={An Autonomic Fault Tolerance Solution for Mobile Devices.},
+  author={Singh, Pushpendra and Cabillic, Gilbert and Ban{\^a}tre, Michel and IRISA, France},
+  booktitle={PDPTA},
+  pages={635--641},
+  year={2005}
+}
+
+@inproceedings{bajaj2018load,
+  title={Load-balanced task allocation for improved system lifetime in mobile crowdsensing},
+  author={Bajaj, Garvita and Singh, Pushpendra},
+  booktitle={2018 19th IEEE International Conference on Mobile Data Management (MDM)},
+  pages={227--232},
+  year={2018},
+  organization={IEEE}
+}
+
+@inproceedings{asthana2013mocktell,
+  title={Mocktell: Exploring challenges of user emulation in interactive voice response testing},
+  author={Asthana, Siddhartha and Singh, Pushpendra and Singh, Amarjeet},
+  booktitle={Proceedings of the 4th ACM/SPEC International Conference on Performance Engineering},
+  pages={427--428},
+  year={2013}
+}
+
+@article{abhinav2015trustworthiness,
+  title={Trustworthiness in crowdsourcing},
+  author={Abhinav, Kumar and Dwarakanath, Anurag and Singh, Pushpendra},
+  year={2015}
+}
+
+@article{singh2020mobile+,
+  title={Mobile+ cloud: Opportunities and challenges},
+  author={Singh, Pushpendra},
+  journal={Cognitive Analytics: Concepts, Methodologies, Tools, and Applications},
+  pages={784--804},
+  year={2020},
+  publisher={IGI Global}
+}
+
+@inproceedings{rashid2016collect,
+  title={Collect, compare, and score: a generic data-driven anomaly detection method for buildings},
+  author={Rashid, Haroon and Arjunan, Pandarasamy and Singh, Pushpendra and Singh, Amarjeet},
+  booktitle={Proceedings of the Seventh International Conference on Future Energy Systems Poster Sessions},
+  pages={1--2},
+  year={2016}
+}
+
+@inproceedings{asthana2015adaptive,
+  title={Adaptive framework for data transmission over GSM voice channel for developing regions},
+  author={Asthana, Siddhartha and Singh, Pushpendra and Jain, Shraddha},
+  booktitle={2015 7th International Conference on New Technologies, Mobility and Security (NTMS)},
+  pages={1--5},
+  year={2015},
+  organization={IEEE}
+}
+
+@article{asthana2012context,
+  title={Context-aware IVR: challenges and opportunities},
+  author={Asthana, Siddhartha and Singh, Pushpendra and Singh, Amarjeet and Naik, Vinayak},
+  year={2012}
+}
+
+@inproceedings{deb2018smartphone,
+  title={Smartphone based solutions for managing severe mental illnesses in low resource settings: roadblocks and opportunities},
+  author={Deb, Koushik Sinha and Sood, Mamta and Chadda, Rakesh K and Singh, Pushpendra and Verma, Rohit and Kumar, Saurabh and Ganesh, Ragul},
+  booktitle={INDIAN JOURNAL OF PSYCHIATRY},
+  volume={60},
+  number={5},
+  pages={88--88},
+  year={2018},
+  organization={MEDKNOW PUBLICATIONS \& MEDIA PVT LTD B-9, KANARA BUSINESS CENTRE, OFF LINK~…}
+}
+
+@article{bajaj2019understanding,
+  title={Understanding preferences of Delhi metro users using choice-based conjoint analysis},
+  author={Bajaj, Garvita and Singh, Pushpendra},
+  journal={IEEE Transactions on Intelligent Transportation Systems},
+  volume={22},
+  number={1},
+  pages={384--393},
+  year={2019},
+  publisher={IEEE}
+}
+
+@article{jain2018sangoshthi,
+  title={Sangoshthi: a mobile learning platform for community health workers in india},
+  author={Jain, Varun and Singh, Pushpendra},
+  year={2018},
+  publisher={IIIT-Delhi}
+}
+
+@inproceedings{singh2012cvdmagic,
+  title={Cvdmagic: a mobile based study for cvd risk detection in rural india},
+  author={Singh, Pushpendra and Singh, Amarjeet and Naik, Vinayak and Lal, Sangeeta},
+  booktitle={Proceedings of the fifth international conference on Information and Communication Technologies and Development},
+  pages={359--366},
+  year={2012}
+}
+
+@article{yadav2019feedpal,
+  title={Feedpal: Understanding opportunities for chatbots in breastfeeding education of women in india},
+  author={Yadav, Deepika and Malik, Prerna and Dabas, Kirti and Singh, Pushpendra},
+  journal={Proceedings of the ACM on Human-Computer Interaction},
+  volume={3},
+  number={CSCW},
+  pages={1--30},
+  year={2019},
+  publisher={ACM New York, NY, USA}
+}
+
+@article{rashid2019blend,
+  title={I-BLEND, a campus-scale commercial and residential buildings electrical energy dataset},
+  author={Rashid, Haroon and Singh, Pushpendra and Singh, Amarjeet},
+  journal={Scientific data},
+  volume={6},
+  number={1},
+  pages={1--12},
+  year={2019},
+  publisher={Nature Publishing Group}
+}
+
+@inproceedings{garg2014vividhavahana,
+  title={VividhaVahana: smartphone based vehicle classification and its applications in developing region},
+  author={Garg, Shilpa and Singh, Pushpendra and Ramanathan, Parameswaran and Sen, Rijurekha},
+  booktitle={Proceedings of the 11th International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services},
+  pages={364--373},
+  year={2014}
+}
+
+@inproceedings{bajaj2017mew,
+  title={Mew: A plug-n-play framework for task allocation in mobile crowdsensing},
+  author={Bajaj, Garvita and Singh, Pushpendra},
+  booktitle={Proceedings of the First ACM Workshop on Mobile Crowdsensing Systems and Applications},
+  pages={19--24},
+  year={2017}
+}
+
+@phdthesis{bajaj2018pickme,
+  title={PickMe: task allocation in mobile crowdsensing},
+  author={Bajaj, Garvita and Singh, Pushpendra},
+  year={2018},
+  school={IIIT-Delhi}
+}
+
+@inproceedings{rashid2017energy,
+  title={Energy disaggregation for identifying anomalous appliance},
+  author={Rashid, Haroon and Singh, Pushpendra},
+  booktitle={Proceedings of the 4th ACM International Conference on Systems for Energy-Efficient Built Environments},
+  pages={1--2},
+  year={2017}
+}
+
+@phdthesis{singhal2015exploratory,
+  title={An Exploratory study on authorship veri cation and learning assessment in online education systems},
+  author={Singhal, Priyanka and Singh, Pushpendra},
+  year={2015}
+}
+
+@article{mohanenabling,
+  title={Enabling Sender-Initiated Communication and Application Checkpoint-Restart in Content Centric Networks},
+  author={Mohan, Nitinder and Singh, Pushpendra}
+}
+
+@phdthesis{lone2018detecting,
+  title={Detecting anomalous energy consumption in buildings using smart meter data},
+  author={Lone, Haroon Rashid and Singh, Pushpendra},
+  year={2018},
+  school={IIIT-Delhi}
+}
+
+@phdthesis{mohan2015enabling,
+  title={Enabling sender-initiated distributed applications and checkpointing in content centric networks},
+  author={Mohan, Nitinder and Singh, Pushpendra},
+  year={2015}
+}
+
+@phdthesis{sondhi2015optimizing,
+  title={Optimizing smartphone energy consumption in sensor data collection and data transmission},
+  author={Sondhi, Devika and Singh, Pushpendra},
+  year={2015}
+}
+
+@phdthesis{rana2015computer,
+  title={Computer assisted telephony system},
+  author={Rana, Anurag and Singh, Pushpendra},
+  year={2015}
+}
+
+@phdthesis{arjunan2018middleware,
+  title={Middleware systems and analytics for energy management in buildings},
+  author={Arjunan, Pandarasamy and Singh, Amarjeet and Singh, Pushpendra},
+  year={2018},
+  school={IIIT-Delhi}
+}
+
+@article{jain2017harmony,
+  title={Harmony: mHealth framework for managing severe mental illnesses},
+  author={Jain, Abhishek and Jain, Siddharth and Singh, Pushpendra},
+  year={2017}
+}
+
+@techreport{asthana2012tring,
+  title={Tring! Tring! usability study of a voice based information system},
+  author={Asthana, Siddhartha and Kumaraguru, Ponnurangam and Singh, Pushpendra and Singh, Amarjeet},
+  year={2012}
+}
+
+@phdthesis{yadav2014geo,
+  title={Geo-localization and location-aware opportunistic communication for mobile phones},
+  author={Yadav, Kuldeep and Naik, Vinayak and Singh, Pushpendra and Singh, Amarjeet},
+  year={2014}
+}
+
+@techreport{asthana2014automated,
+  title={Automated testing of interactive voice response applications},
+  author={Asthana, Siddhartha and Singh, Pushpendra},
+  year={2014}
+}
+
+@article{yadavchallenges,
+  title={Challenges and Novelties while using Mobile Phones as ICT Devices for Indian Masses},
+  author={Yadav, Kuldeep and Naik, Vinayak and Singh, Amarjeet and Singh, Pushpendra and Kumaraguru, Ponnurangam and Chandra, Umesh}
+}
+
+@article{arjunanmobile,
+  title={Mobile and Ubiquitous Computing Group-IIIT Delhi http://research. iiitd. edu. in/groups/muc},
+  author={Arjunan, Pandarasamy and Singh, Amarjeet and Naik, Vinayak and Singh, Pushpendra}
+}
+
+@inproceedings{sethi2013bounced,
+  title={Bounced—Improving data availability through replication in P2P networks},
+  author={Sethi, Raghav and Alam, Naved and Pundir, Mayank and Singh, Pushpendra},
+  booktitle={2013 Fifth International Conference on Communication Systems and Networks (COMSNETS)},
+  pages={1--2},
+  year={2013},
+  organization={IEEE}
+}
+
+@inproceedings{kumar2014inclusive,
+  title={Inclusive study of low energy complete and incomplete Fusion-Fission},
+  author={Kumar, Prabhat and Sharma, Vijay R and Raghav, Anubhav and Shuaib, Md and Agrawal, AV and Yadav, Abhishek and Singh, DP and Singh, PP and Gupta, S and Sharma, MK and others},
+  booktitle={Proceedings of the DAE Symp. on Nucl. Phys},
+  volume={59},
+  pages={544},
+  year={2014}
+}
+
+@article{srivastava2021actionable,
+  title={Actionable UI Design Guidelines for Smartphone Applications Inclusive of Low-Literate Users},
+  author={Srivastava, Ayushi and Kapania, Shivani and Tuli, Anupriya and Singh, Pushpendra},
+  journal={Proceedings of the ACM on Human-Computer Interaction},
+  volume={5},
+  number={CSCW1},
+  pages={1--30},
+  year={2021},
+  publisher={ACM New York, NY, USA}
+}
+
+@article{duggal2018survival,
+  title={Survival outcomes post percutaneous coronary intervention: Why the hype about stent type? Lessons from a healthcare system in India},
+  author={Duggal, Bhanu and Subramanian, Jyothi and Duggal, Mona and Singh, Pushpendra and Rajivlochan, Meeta and Saunik, Sujata and Desiraju, Koundinya and Avhad, Archana and Ram, Usha and Sen, Sayan and others},
+  journal={PloS one},
+  volume={13},
+  number={5},
+  pages={e0196830},
+  year={2018},
+  publisher={Public Library of Science San Francisco, CA USA}
+}
+
+@inproceedings{yadav2018automatic,
+  title={Automatic annotation of voice forum content for rural users and evaluation of relevance},
+  author={Yadav, Deepika and Gupta, Mayank and Chetlur, Malolan and Singh, Pushpendra},
+  booktitle={Proceedings of the 1st ACM SIGCAS Conference on Computing and Sustainable Societies},
+  pages={1--11},
+  year={2018}
+}
+
+@inproceedings{singh2013using,
+  title={Using mobile phone sensors to detect driving behavior},
+  author={Singh, Pushpendra and Juneja, Nikita and Kapoor, Shruti},
+  booktitle={Proceedings of the 3rd ACM Symposium on Computing for Development},
+  pages={1--2},
+  year={2013}
+}
+
+@inproceedings{yadav2021illustrating,
+  title={Illustrating the Gaps and Needs in the Training Support of Community Health Workers in India},
+  author={Yadav, Deepika and Malik, Prerna and Dabas, Kirti and Singh, Pushpendra},
+  booktitle={Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems},
+  pages={1--16},
+  year={2021}
+}
+
+@article{tomar2020taboos,
+  title={Taboos in Education},
+  author={Tomar, Yash and Singh, Pushpendra},
+  year={2020},
+  publisher={IIIT-Delhi}
+}
+
+@article{jain2020developing,
+  title={Developing an objective measure for research publications},
+  author={Jain, Shubhi and Singh, Pushpendra},
+  year={2020},
+  publisher={IIIT-Delhi}
+}
+
+@article{garg2020handwash,
+  title={HandWash-IoT},
+  author={Garg, Mannika and Singh, Pushpendra},
+  year={2020},
+  publisher={IIIT-Delhi}
+}
+
+@phdthesis{saxena2020understanding,
+  title={Understanding the effect of positioning on mobile sensor data and its impact on applications},
+  author={Saxena, Garvita and Singh, Pushpendra},
+  year={2020},
+  school={IIIT-Delhi}
+}
+
+@phdthesis{yadav2021supporting,
+  title={Supporting ongoing training of community health workers through mobile-based solutions in rural India},
+  author={Yadav, Deepika and Singh, Pushpendra},
+  year={2021},
+  school={IIIT-Delhi}
+}
+
+@article{hoque2003effects,
+  title={Effects of static magnetic field in fracture healing in goats: An experimental study},
+  author={Hoque, M and Maiti, SK and Aithal, HP and Singh, GR and Kumar, N and Singh, P and Charan, K},
+  journal={Indian Journal of Animal Sciences (India)},
+  year={2003}
+}
+
+@inproceedings{yadav2015low,
+  title={Low energy incomplete fusion and its relevance to the synthesis of super heavy elements},
+  author={Yadav, Abhishek and Kumar, P and Raghav, A and Shuaib, Mohd and Sharma, VR and Singh, DP and Singh, PP and Gupta, Sunita and Gupta, U and Sharma, MK and others},
+  booktitle={EPJ web of conferences},
+  volume={86},
+  pages={00064},
+  year={2015},
+  organization={EDP Sciences}
+}
+
+@article{mangal2004imaging,
+  title={Imaging and morphology of the paracondylar process in a dry adult human skull: a case report},
+  author={Mangal, A and Choudhry, R and Tuli, A and Singh, P and Kaur Narula, M and Khera, V},
+  journal={Surgical and Radiologic Anatomy},
+  volume={26},
+  pages={334--337},
+  year={2004},
+  publisher={Springer-Verlag}
+}
+
+@inproceedings{jain2021margins,
+  title={From the Margins to the Centre: Defining New Mission and Vision for HCI Research in South Asia},
+  author={Jain, Pranjal and Ibtasam, Samia and Sharma, Sumita and Bhattacharya, Nilavra and Tuli, Anupriya and Gamage, Dilrukshi and Jain, Dhruv and Tulaskar, Rucha and Chandra, Priyank and Razaq, Lubna and others},
+  booktitle={Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems},
+  pages={1--6},
+  year={2021}
+}
+
+@article{kansana2015assessment,
+  title={Assessment the Efficiency of Kisan Mobile Advisory An ICT Tool for Agricultural Extension and Rural Development},
+  author={Kansana, BS and Kuswaha, PS and Singh, Pushpendra and Singh, AK},
+  journal={International Journal for Scientific Research},
+  volume={4},
+  number={1},
+  pages={1--3},
+  year={2015}
+}
+
+@article{paul2016scale,
+  title={A Scale to Measure Time Use Efficiency of Agricultural Scientists},
+  author={Paul, S and Vijayaragavan, K and Singh, P},
+  journal={Indian Research Journal of Extension Education},
+  volume={13},
+  number={3},
+  pages={43--46},
+  year={2016}
+}
+
+@inproceedings{tuli2022rethinking,
+  title={Rethinking Menstrual Trackers Towards Period-Positive Ecologies},
+  author={Tuli, Anupriya and Singh, Surbhi and Narula, Rikita and Kumar, Neha and Singh, Pushpendra},
+  booktitle={Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems},
+  pages={1--20},
+  year={2022}
+}
+
+@article{singh2007observation,
+  title={Observation of complete-and incomplete-fusion components in $\{$sup 159$\}$ Tb,$\{$sup 169$\}$ Tm ($\{$sup 16$\}$ O, x) reactions: Measurement and analysis of forward recoil ranges at E/A $\{$approx$\}$ 5-6 MeV},
+  author={Singh, Pushpendra P and Kumar Sharma, Manoj and Singh, Devendra P and Singh, BP and Prasad, R and Kumar, Rakesh and Golda, KS and others},
+  journal={The European Physical Journal, A},
+  volume={34},
+  year={2007}
+}
+
+@article{yadav2008signature,
+  title={Signature of pre-equilibrium-emission: yield-ratio measurement in particle-$\{$gamma$\}$ coincidence},
+  author={Yadav, Abhishek and Singh, Pushpendra P and Singh, BP and Sharma, Manoj Kumar and Singh, D and Ansari, MA and Prasad, R and Kumar, R and Singh, RP and Muralithar, S and others},
+  year={2008}
+}
+
+@inproceedings{singh2010comprehensive,
+  title={A comprehensive study of in-complete fusion reaction dynamics in 16O+ 181Ta system at 4-7 MeV/nucleon},
+  author={Singh, Devendra P and Sharma, Vijay R and Yadav, Abhishek and Singh, Pushpendra P and Unnati, MK and Golda, KS and Kumar, R and Sinha, AK and Singh, BP and Prasad, R},
+  booktitle={DAE-BRNS symposium on nuclear physics. V. 55},
+  year={2010}
+}
+
+@article{savadi2019thin,
+  title={Thin Layer Activation analysis in 16O+ 169Tm system at low energies},
+  author={Savadi, Varun V and Singh, DP and Joshi, SK and Majeed, Ishfaq and Shuaib, Md and Sharma, VR and Yadav, A and Singh, PP and Sharma, MK and Kumar, R and others},
+  journal={Materials Today: Proceedings},
+  volume={17},
+  pages={96--100},
+  year={2019},
+  publisher={Elsevier}
+}
+
+@inproceedings{wani2022hartal,
+  title={“Hartal (Strike) Happens Here Everyday”: Understanding Impact of Disruption on Education in Kashmir},
+  author={Wani, Asra Sakeen and Singh, Divyanshu Kumar and Singh, Pushpendra},
+  booktitle={Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems},
+  pages={1--17},
+  year={2022}
+}
+
+@article{sharma2006measurement,
+  title={Measurement and analysis of cross-section for some residues produced in $\{$sup 16$\}$ O+$\{$sup 27$\}$ Al system},
+  author={Sharma, Manoj Kumar and Singh, Devendra P and Singh, Pushpendra P and Singh, BP and Prasad, R and Kumar, Rakesh and Golda, KS and Bhardwaj, HD and others},
+  year={2006}
+}
+
+@inproceedings{yadav2022should,
+  title={“Should I visit the clinic”: Analyzing WhatsApp-mediated Online Health Support for Expectant and New Mothers in Rural India},
+  author={Yadav, Deepika and Dabas, Kirti and Malik, Prerna and Bhandari, Anushka and Singh, Pushpendra},
+  booktitle={Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems},
+  pages={1--20},
+  year={2022}
+}
+
+@article{sharma2007isotopic,
+  title={Isotopic mass distribution of fission products in $\{$sup 16$\}$ O+ $\{$sup 197$\}$ Au reactions at 6 MeV/nucleon},
+  author={Sharma, Manoj Kumar and Singh, Devendra P and Yadav, Abhishek and Singh, Pushpendra P and Singh, BP and Prasad, R and Golda, KS and Kumar, Rakesh and others},
+  year={2007}
+}
+
+@inproceedings{sharma2007isotopic,
+  title={Isotopic mass distribution of fission products in 16 O+ 197 Au reactions at 6 MeV/nucleon},
+  author={Sharma, Manoj Kumar and Singh, Devendra P and Yadav, Abhishek and Singh, Pushpendra P and Singh, BP and Prasad, R and Golda, KS and Rakesh, Kumar and others},
+  booktitle={Proceedings of the DAE symposium on nuclear physics. V. 52},
+  year={2007}
+}
+
+@inproceedings{singh2008fusion,
+  title={Fusion and in-complete fusion studies in 16 O+ 181 Ta system in the energy range~ 4.7-6.2 MeV/A},
+  author={Singh, Devendra P and Yadav, Abhishek and Singh, Pushpendra P and Sharma, Manoj Kumar and Singh, BP and Prasad, R and Golda, KS and Kumar, Rakesh and Sinha, AK and others},
+  booktitle={Proceedings of the DAE symposium on nuclear physics. V. 53},
+  year={2008}
+}
+
+@article{singh2007complete,
+  title={Complete and incomplete fusion studies for the $\{$sup 16$\}$ O+$\{$sup 181$\}$ Ta system using x-ray detection technique},
+  author={Singh, Devendra P and Sharma, Manoj Kumar and Singh, Pushpendra P and Yadav, Abhishek and Singh, BP and Prasad, R and Golda, KS and Kumar, Rakesh and Sinha, AK and others},
+  year={2007}
+}
+
+@article{singh2006influence,
+  title={Influence of in-complete fusion on complete fusion: observation of large fusion suppression at $\{$approx\_equal$\}$ 5-7 MeV/nucleon},
+  author={Singh, Pushpendra P and Singh, Devendra P and Sharma, Manoj Kumar and Singh, BP and Prasad, R and Kumar, Rakesh and Golda, KS and Bhardwaj, HD and others},
+  year={2006}
+}
+
+@inproceedings{singh2010tele,
+  title={Tele-PASI assessment: A feasibility study using digital images},
+  author={Singh, P and Wu, J and Soyer, HP and Salmhofer, W and Gilmore, S},
+  booktitle={AUSTRALASIAN JOURNAL OF DERMATOLOGY},
+  volume={51},
+  pages={A9--A10},
+  year={2010},
+  organization={WILEY 111 RIVER ST, HOBOKEN 07030-5774, NJ USA}
+}
+
+@article{paul2013developing,
+  title={Developing Scale to Measure Quality Orientation of Agricultural Scientists},
+  author={Paul, S and Vijayaragavan, K and Singh, P},
+  journal={Journal of Community Mobilization and Sustainable Development},
+  volume={8},
+  number={1},
+  pages={73--77},
+  year={2013},
+  publisher={Society for Community Mobilization for Sustainable Development}
+}
+
+@article{pendse2022access,
+  title={Access to and Use of Mobile Phone by Postpartum, Married Women in Punjab, India: Secondary Analysis of mHealth Intervention Pilot Data},
+  author={Pendse, Ruchita S and El Ayadi, Alison M and Sharma, Preetika and Ahuja, Alka and Basavarajappa, Darshan Hosapatna and Duggal, Mona and Kankaria, Ankita and Singh, Pushpendra and Kumar, Vijay and Bagga, Rashmi and others},
+  journal={JMIR Formative Research},
+  volume={6},
+  number={5},
+  pages={e34852},
+  year={2022},
+  publisher={JMIR Publications Inc., Toronto, Canada}
+}
+
+@article{singh2012study,
+  title={A study of data flow graph representation analysis with syntax and semantics},
+  author={Singh, Pushpendra and Chaurasiya, Devesh and Joshi, Ankita and Pandey, Kumar Sambhav},
+  journal={International Journal of Advanced Research in Computer Science and Software Engineering},
+  volume={2},
+  year={2012}
+}
+
+@inproceedings{jamir2016epidemiology,
+  title={Epidemiology of behavioral (mobile) addiction among school students in rural india},
+  author={Jamir, Limalemla and Grover, Sandeep and Nehra, Ritu and Kankaria, Ankita and Singh, Pushpendra and Sharma, Nikita and Duggal, Mona},
+  booktitle={APHA 2016 Annual Meeting \& Expo (Oct. 29-Nov. 2, 2016)},
+  year={2016},
+  organization={APHA}
+}
+
+@article{chaurasiya2012analysis,
+  title={Analysis of Network Processor Processing Elements Topologies},
+  author={Chaurasiya, Devesh and Singh, Pushpendra and Joshi, Ankita and Pandey, Kumar Sambhav},
+  journal={International Journal},
+  volume={2},
+  number={6},
+  year={2012}
+}
+
+@article{sharma2018analysis,
+  title={Analysis of experimental cross-section for ($\alpha$, n) reactions in odd A and odd Z heavy nuclei: A systematics on pre-compound emission},
+  author={Sharma, Manoj Kumar and Kumar, Mahesh and Shuaib, Mohd and Sharma, Vijay R and Yadav, Abhishek and Singh, Pushpendra P and Singh, Devendra P and Singh, BP and Prasad, R},
+  journal={The European Physical Journal A},
+  volume={54},
+  number={11},
+  pages={205},
+  year={2018},
+  publisher={Springer Berlin Heidelberg Berlin/Heidelberg}
+}
+
+@inproceedings{kaur2022understanding,
+  title={Understanding the Role of Technology-mediated Solutions for Women’s Safety in Urban India},
+  author={Kaur, Jasmeet and Gupta, Meghna and Singh, Pushpendra},
+  booktitle={ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies (COMPASS)},
+  pages={638--642},
+  year={2022}
+}
+
+@article{el2022mobile,
+  title={A mobile education and social support group intervention for improving postpartum health in northern India: Development and Usability Study},
+  author={El Ayadi, Alison M and Duggal, Mona and Bagga, Rashmi and Singh, Pushpendra and Kumar, Vijay and Ahuja, Alka and Kankaria, Ankita and Basavarajappa, Darshan Hosapatna and Kaur, Jasmeet and Sharma, Preetika and others},
+  journal={JMIR formative research},
+  volume={6},
+  number={6},
+  pages={e34087},
+  year={2022},
+  publisher={JMIR Publications Inc., Toronto, Canada}
+}
+
+@misc{powellcomplexity,
+  title={The complexity of mental health app privacy policies: a potential barrier to privacy. JMIR Mhealth Uhealth. 2018 Jul 30; 6 (7): e158. doi: 10.2196/mhealth. 9871},
+  author={Powell, AC and Singh, P and Torous, J}
+}
+
+@incollection{asthana2013exploring,
+  title={Exploring adverse effects of adaptive voice menu},
+  author={Asthana, Siddhartha and Singh, Pushpendra and Singh, Amarjeet},
+  booktitle={CHI'13 Extended Abstracts on Human Factors in Computing Systems},
+  pages={775--780},
+  year={2013}
+}
+
+@article{afreen2017character,
+  title={Character Association for Yield and Yield Attributing Traits in Diverse Genotypes of Garden Pea (Pisum sativum var hortense L.)},
+  author={Afreen, Sana and Singh, Anand Kumar and Moharana, DP and Singh, V and Singh, Pushpendra and Mohapatra, AS and others},
+  journal={Environment and Ecology},
+  volume={35},
+  number={2C},
+  pages={1400--1404},
+  year={2017}
+}
+
+@article{moharana2016seed,
+  title={Seed production in vegetable crops: the Indian prospects},
+  author={Moharana, Durga Prasad and Singh, Vaibhav and Singh, Pushpendra and Singh, Anand K},
+  journal={Progress Res},
+  volume={11},
+  number={Special-II},
+  pages={1436--1437},
+  year={2016}
+}
+
+@inproceedings{karusala2021future,
+  title={The future of care work: towards a radical politics of care in CSCW research and practice},
+  author={Karusala, Naveena and Ismail, Azra and Bhat, Karthik S and Gautam, Aakash and Pendse, Sachin R and Kumar, Neha and Anderson, Richard and Balaam, Madeline and Bardzell, Shaowen and Bidwell, Nicola J and others},
+  booktitle={Companion Publication of the 2021 Conference on Computer Supported Cooperative Work and Social Computing},
+  pages={338--342},
+  year={2021}
+}
+
+@inproceedings{bansal2015blending,
+  title={Blending active learning in a modified SPOC based classroom},
+  author={Bansal, Shruti and Singh, Pushpendra},
+  booktitle={2015 ieee 3rd international conference on moocs, innovation and technology in education (mite)},
+  pages={251--256},
+  year={2015},
+  organization={IEEE}
+}
+
+@article{weihong2008using,
+  title={Using immersive video to evaluate future traveller information systems},
+  author={Weihong-Guo, Amy and Blythe, P and Olivier, P and Singh, P and Ha, H Nam},
+  journal={IET intelligent transport systems},
+  volume={2},
+  number={1},
+  pages={38--46},
+  year={2008},
+  publisher={IET Digital Library}
+}
+
+@phdthesis{garg2014novel,
+  title={A novel approach for vehicle specific road/traffic congestion},
+  author={Garg, Shilpa and Singh, Pushpendra},
+  year={2014}
+}
+
+@article{duggal2022using,
+  title={Using a national level cross-sectional study to develop a Hospital Preparedness Index (HOSPI) for Covid-19 management: A case study from India},
+  author={Duggal, Bhanu and Duggal, Mona and Panch, Aparna and Chourase, Mithlesh and Gedam, Praveen and Singh, Pushpendra and Saunik, Sujata and Subramanian, Lakshminarayan},
+  journal={PloS one},
+  volume={17},
+  number={7},
+  pages={e0269842},
+  year={2022},
+  publisher={Public Library of Science San Francisco, CA USA}
+}
+
+@article{singh2003response,
+  title={Response of ginger (Zingiber officinale) to methods of planting and levels of phosphorus in a rehabilitated forest developed on sodic land},
+  author={Singh, Ajai and Singh, Bajrang and Singh, Achal and Singh, Pushpendra},
+  journal={Journal of Spices and Aromatic Crops},
+  volume={12},
+  number={1},
+  pages={63--66},
+  year={2003}
+}
+
+@inproceedings{singh2007complete,
+  title={Complete versus incomplete fusion in 159 Tb (16 O, x) reactions: forward recoil ranges measurement of heavy slow residues at E r ecoil< 0.05 MeV/nucleon},
+  author={Singh, Pushpendra P and Singh, Devendra P and Sharma, Manoj Kumar and Singh, BP and Prasad, R and Rakesh, Kumar and Golda, KS and Bhardwaj, HD and others},
+  booktitle={Proceedings of the DAE symposium on nuclear physics. V. 52},
+  year={2007}
+}
+
+@article{singh2018ginger,
+  title={Ginger (Zingiber officinale): a nobel herbal remedy},
+  author={Singh, P and Srivastava, S and Singh, VB and Sharma, Pushkar and Singh, Devendra},
+  journal={Int. J. Curr. Microbi. App. Sci},
+  volume={7},
+  pages={4065--4077},
+  year={2018}
+}
+
+@article{ahuja2015analytical,
+  title={Analytical techniques for trace element analysis: an overview},
+  author={Ahuja, AK and Threja, Himanshu and Singh, P and Sahota, HS},
+  journal={International Journal of Engineering Research and General Science},
+  volume={3},
+  number={3},
+  pages={887--895},
+  year={2015}
+}
+
+@misc{kumar2019distributed,
+  title={Distributed architecture for content indexing using restored secondary copies},
+  author={Kumar, Sanath and Bhagi, Sri Karthik and Gokhale, Parag and Pawar, Rahul S and Duraisamy, Arun Prabu and Pradhan, Manoj Kumar and Zakharkin, Dmitriy Borisovich and Sinha, Prosenjit and Pawale, Vipul and Inavolu, Jaya Rama Raju and others},
+  year={2019},
+  month=mar # "~21",
+  note={US Patent App. 16/130,863}
+}
+
+@misc{kumar2019distributed,
+  title={Distributed content indexing architecture with combined backup and content indices},
+  author={Kumar, Sanath and Bhagi, Sri Karthik and Gokhale, Parag and Pawar, Rahul S and Duraisamy, Arun Prabu and Pradhan, Manoj Kumar and Zakharkin, Dmitriy Borisovich and Sinha, Prosenjit and Pawale, Vipul and Inavolu, Jaya Rama Raju and others},
+  year={2019},
+  month=mar # "~21",
+  note={US Patent App. 16/130,843}
+}
+
+@article{bana2016influence,
+  title={Influence of abiotic factors and crop stages on population dynamics of hoppers, Idioscopus spp. in mango ecosystem},
+  author={Bana, Jugal Kishor and Singh, Pushpendra and Makwana, Amit},
+  journal={Annals of Plant Protection Sciences},
+  volume={24},
+  number={2},
+  pages={286--289},
+  year={2016},
+  publisher={Society of Plant Protection Sciences}
+}
+
+@article{singh2017recruitment,
+  title={Recruitment \& selection \& its impact on organizational productivity},
+  author={Singh, Pushpendra and Mathur, G and Jain, M and Sahayaraj, A},
+  journal={International Journal of Core Engineering \& Management},
+  volume={4},
+  number={2},
+  pages={26--35},
+  year={2017}
+}
+
+@article{ismail2022imagining,
+  title={Imagining Caring Futures for Frontline Health Work},
+  author={Ismail, Azra and Yadav, Deepika and Gupta, Meghna and Dabas, Kirti and Singh, Pushpendra and Kumar, Neha},
+  journal={Proceedings of the ACM on Human-Computer Interaction},
+  volume={6},
+  number={CSCW2},
+  pages={1--30},
+  year={2022},
+  publisher={ACM New York, NY, USA}
+}
+
+@article{sinha2016factors,
+  title={Factors for selection of entrepreneurial carrier by youth trainees of Entrepreneurship Development Programme.},
+  author={Sinha, Pankaj K and Singh, BK and Singh, P and Burman, RR and others},
+  journal={Indian Research Journal of Extension Education},
+  volume={16},
+  number={2},
+  pages={31--36},
+  year={2016},
+  publisher={Society of Extension Education}
+}
+
+@article{diamond2022supply,
+  title={The supply is there. So why can’t pregnant and breastfeeding women in rural India get the COVID-19 vaccine?},
+  author={Diamond-Smith, Nadia G and Sharma, Preetika and Duggal, Mona and Gill, Navneet and Gupta, Jagriti and Kumar, Vijay and Kaur, Jasmeet and Singh, Pushpendra and Vosburg, Katy Bradford and El Ayadi, Alison M},
+  journal={PLOS global public health},
+  volume={2},
+  number={12},
+  pages={e0001321},
+  year={2022},
+  publisher={Public Library of Science San Francisco, CA USA}
+}
+
+@article{sharma2013vermicomposts,
+  title={Vermicomposts and biofertilizers for improved tomato productivity and soil properties in degraded soils of lower Himalayas},
+  author={Sharma, Pawan and Sharma, HC and Singh, P and Prasad, R},
+  journal={Indian J. Soil Conserv},
+  volume={41},
+  pages={274--278},
+  year={2013}
+}
+
+@article{grover2005mesiodens,
+  title={Mesiodens presenting as a dentigerous cyst: Case report},
+  author={Grover, S and Singh, P and Venkatachalam, V and Hekha, N},
+  journal={Indian Journal of Radiology and Imaging},
+  volume={15},
+  number={1},
+  year={2005},
+  publisher={Medknow Publications and Media Pvt. Ltd.}
+}
+
+@article{majeed2016role,
+  title={role of matrix metalloproteinase- 9 in progression of tuberculous meningitis: a pilot study in patients at different stages of the disease},
+  author={Majeed, S and Singh, P and Sharma, N and Sharma, S},
+  journal={BMC Infectious diseases},
+  volume={16},
+  number={1},
+  pages={1--7},
+  year={2016},
+  publisher={BioMed Central}
+}
+
+@article{kaur2014comparative,
+  title={Comparative study of OSPFv3, IS-IS and OSPFv3 IS-IS protocols using OPNET},
+  author={Kaur, Jagmeet and Singh, P},
+  journal={International Journal of Advanced Research in Computer Engineering and Technology (IJARCET)},
+  volume={3},
+  number={8},
+  pages={2656--2662},
+  year={2014}
+}
+
+@article{kumawat2016optimal,
+  title={Optimal placement of capacitor and DG for minimization of power loss using genetic algorithm and artificial bee colony algorithm},
+  author={Kumawat, Aakanksha and Singh, Pushpendra},
+  journal={Int. Research J. of Eng. and Technology (IRJET)},
+  volume={3},
+  number={4},
+  pages={2482--2488},
+  year={2016}
+}
+
+@article{kumawat2016optimal,
+  title={Optimal Placement of Biomass Fuelled DG for Minimization of Power Losses in Power System},
+  author={Kumawat, Aakanksha and Singh, Pushpendra},
+  journal={International Research Journal of Engineering and Technology (IRJET)},
+  volume={3},
+  number={04},
+  year={2016}
+}
+
+@article{choudhary2016optimum,
+  title={Optimum size and location of distributed generation and capacitor for loss reduction using different optimization technique in Power distribution network},
+  author={Choudhary, Renu and Singh, Pushpendra},
+  journal={Int. Res. J. Eng. Technol},
+  volume={3},
+  number={3},
+  pages={709--713},
+  year={2016}
+}
+
+@inproceedings{sharma2006study,
+  title={A study of energy dependence of complete and incomplete fusion in 16 O+ 169 Tm system below 6 MeV/A using recoil range distribution technique},
+  author={Sharma, Manoj K and Singh, BP and Singh, Pushpendra P and Singh, Devendra P and Prasad, R and Rakesh, Kumar and Bhardwaj, HD and Gupta, Sunita and others},
+  booktitle={Proceedings of the DAE-BRNS symposium on nuclear physics: V. 51},
+  year={2006}
+}
+
+@inproceedings{singh2006measurement,
+  title={Measurement and analysis of excitation functions in 16 O+ 103 Rh system in the excitation energy range≅ 2-4 MeV/A},
+  author={Singh, Devendra P and Sharma, Manoj Kumar and Singh, Pushpendra P and Singh, BP and Prasad, R and Gupta, Sunita and Rakesh, Kumar and Bhardwaj, HD and others},
+  booktitle={Proceedings of the DAE-BRNS symposium on nuclear physics: V. 51},
+  year={2006}
+}
+
+@inproceedings{upadhyay2015wavelength,
+  title={Wavelength selective switching application of one dimensional defect photonic crystal},
+  author={Upadhyay, Maitreyi and Awasthi, Suneet K and Shukla, SN and Singh, Pushpendra},
+  booktitle={2015 2nd International Conference on Opto-Electronics and Applied Optics (IEM OPTRONIX)},
+  pages={1--3},
+  year={2015},
+  organization={IEEE}
+}
+
+@article{kumar2010fuzzy,
+  title={Fuzzy linear programming problems with fuzzy Parameters},
+  author={Kumar, A and Kaur, J and Singh, P},
+  year={2010},
+  publisher={JOURNAL OF ADVANCED RESEARCH IN SCIENTIFIC COMPUTING}
+}
+
+@article{sharma2010mass,
+  title={Mass and isotopic yield distributions of fission-like residues in $\{$sup 16$\}$ O+$\{$sup 181$\}$ Ta system at E $\{$sub Lab$\}$$\{$approx\_equal$\}$ 6 MeV/A},
+  author={Sharma, Vijay R and Yadav, Abhishek and Singh, Devendra P and Singh, BP and Prasad, R and Singh, Pushpendra P and Sharma, Manoj K and Golda, KS and Sinha, AK and others},
+  year={2010}
+}
+
+@inproceedings{belani2023investigating,
+  title={Investigating Spatial Representation of Learning Content in Virtual Reality Learning Environments},
+  author={Belani, Manshul and Singh, Harsh Vardhan and Parnami, Aman and Singh, Pushpendra},
+  booktitle={2023 IEEE Conference Virtual Reality and 3D User Interfaces (VR)},
+  pages={33--43},
+  year={2023},
+  organization={IEEE}
+}
+
+@article{singh2018n1,
+  title={$\{$N1-[2-(Butylselanyl) benzyl]-N2, N2-dimethylethane-1, 2-diamine$\}$ dichloridomercury (II)},
+  author={Singh, Pushpendra and Singh, Harkesh B and Butcher, Ray J},
+  journal={Acta Crystallographica Section E: Crystallographic Communications},
+  volume={74},
+  number={8},
+  pages={1151--1154},
+  year={2018},
+  publisher={International Union of Crystallography}
+}
+
+@article{singh2014crystal,
+  title={Crystal structure of N1-benzyl-N1, N2, N2-trimethylethane-1, 2-diaminium dichloride},
+  author={Singh, Pushpendra and Singh, Harkesh B and Butcher, Ray J},
+  journal={Acta Crystallographica Section E: Structure Reports Online},
+  volume={70},
+  number={9},
+  pages={o911--o912},
+  year={2014},
+  publisher={International Union of Crystallography}
+}
+
+@inproceedings{singh2010influence,
+  title={Influence of fertility levels on fodder yield and HCN content of fodder sorghum [Sorghum bicolor (L.) Moench] varieties},
+  author={Singh, Hanuman and Choudhary, Mukesh and Singh, Pushpendra},
+  booktitle={Range Management and Agroforestry Symposium Issue (A)},
+  pages={57--58},
+  year={2010}
+}
+
+@article{grover2005ind,
+  title={Ind J Radiol Imag 2005 15: 1: 69-72},
+  author={Grover, SB and Singh, P and Venkatachalam, VP and Hekha, N},
+  journal={Ind J Radiol Imag},
+  volume={15},
+  number={1},
+  pages={69--72},
+  year={2005}
+}
+
+@article{aggarwal2021tools,
+  title={Tools for educating maternal healthcare workers in rural areas},
+  author={Aggarwal, Ira and Singh, Pushpendra},
+  year={2021},
+  publisher={IIIT-Delhi}
+}
+
+@article{singh2021iiit,
+  title={IIIT Delhi-enterprise resource planning development},
+  author={Singh, Dashmesh and Gautam, Gaurav and Sarda, Vaibhav and Ali, Adnan and Singh, Pushpendra},
+  year={2021},
+  publisher={IIIT-Delhi}
+}
+
+@inproceedings{tuli2023information,
+  title={“Information-Backward but Sex-Forward”: Navigating Masculinity towards Intimate Wellbeing and Heterosexual Relationships},
+  author={Tuli, Anupriya and Ismail, Azra and Bhat, Karthik S and Singh, Pushpendra and Kumar, Neha},
+  booktitle={Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems},
+  pages={1--16},
+  year={2023}
+}
+
+@article{sharma2023maternal,
+  title={Maternal health education and social support needs across the perinatal continuum of care in India: A thematic analysis},
+  author={Sharma, Preetika and Bagga, Rashmi and Khan, Maliha and Duggal, Mona and Basavarajappa, Darshan Hosapatna Basavarajappa Hosapatna and Ahuja, Alka and Kankaria, Ankita and Diamond-Smith, Nadia and Kumar, Vijay and Kashyap, Manju and others},
+  year={2023}
+}
+
+@inproceedings{siddiqui2023exploring,
+  title={Exploring the digital support needs of caregivers of people with serious mental illness},
+  author={Siddiqui, Farheen and Varghese, Delvin and Singh, Pushpendra and Bayyavarapu, Sunita Bapuji and Lindsay, Stephen and Chandrasekara, Dharshani and Kulkarni, Pranav and Wu, Ling and Alshehri, Taghreed and Olivier, Patrick},
+  booktitle={Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems},
+  pages={1--16},
+  year={2023}
+}
+
+@article{nirgudkar2017mean,
+  title={The mean stack},
+  author={Nirgudkar, N and Singh, P},
+  journal={International Research Journal of Engineering and Technology},
+  pages={2395--56},
+  year={2017}
+}
+
+@article{belaniieee,
+  title={IEEE VR 2023 Table of Contents},
+  author={Belani, Manshul and Singh, Harsh Vardhan and Parnami, Aman and Singh, Pushpendra}
+}
+
+@article{singh2017rising,
+  title={The rising burden of healthcare expenditure in India: a poverty nexus},
+  author={Singh, Pushpendra and Kumar, Virendra},
+  journal={Social Indicators Research},
+  volume={133},
+  pages={741--762},
+  year={2017},
+  publisher={Springer Netherlands}
+}
+
+@article{kumar2006effect,
+  title={Effect of Growth Substances On Flowering And Bulb Production In Tuberose (Polianthes Tuberosa Linn.) cv. Pearl Double},
+  author={Kumar, Jitendra and Singh, Pushpendra and Pal, Krishan},
+  journal={Journal of Ornamental Horticulture},
+  volume={9},
+  number={3},
+  pages={227--228},
+  year={2006},
+  publisher={Indian Society of Ornamental Horticulture}
+}
+
+@article{singh2017multiphase,
+  title={Multiphase nanostructured PANI anchored@ CVD grown MWCNT on rGO coated nickel foam for binder free supercapacitor electrode},
+  author={Singh, Pushpendra and Pal, Kaushik},
+  journal={Electrochimica Acta},
+  year={2017},
+  publisher={Elsevier Ltd}
+}
+
+@article{singh2012preparation,
+  title={Preparation and characterization of polyaniline nanostructures via a interfacial polymerization method},
+  author={Singh, P and Singh, RA},
+  journal={Synthetic Metals},
+  volume={162},
+  number={24},
+  pages={2193--2200},
+  year={2012},
+  publisher={Elsevier}
+}
+
+@article{kumar2017far,
+  title={How far is universal coverage of antenatal care (ANC) in India? An evaluation of coverage and expenditure from a national survey},
+  author={Kumar, Virendra and Singh, Pushpendra},
+  journal={Clinical Epidemiology and Global Health},
+  volume={5},
+  number={1},
+  pages={1--7},
+  year={2017},
+  publisher={Elsevier}
+}
+
+@article{mahapatro2017health,
+  title={The health of India’s older population: do living arrangements matter?},
+  author={Mahapatro, Sandhya R and Acharya, Arabinda and Singh, Pushpendra},
+  journal={Working with Older People},
+  volume={21},
+  number={2},
+  pages={82--89},
+  year={2017},
+  publisher={Emerald Publishing Limited}
+}
+
+@article{singh2005integrated,
+  title={Integrated weed management studies in maize based intercropping system},
+  author={Singh, Mahender and Singh, Pushpendra and Nepalia, V},
+  journal={Indian Journal of Weed Science},
+  volume={37},
+  number={3and4},
+  pages={205--208},
+  year={2005},
+  publisher={Indian Society of Weed Science}
+}
+
+@article{sodhi2016health,
+  title={Health service system in transition: An assessment of the influence of the British and US healthcare systems on the evolution of health services in India},
+  author={Sodhi, Chhavi and Singh, Pushpendra},
+  journal={International Journal of Health Governance},
+  volume={21},
+  number={4},
+  pages={204--221},
+  year={2016},
+  publisher={Emerald Group Publishing Limited}
+}
+
+@article{singh2004physico,
+  title={Physico-chemical characteristics of distillery effluent and its chemical treatment},
+  author={Singh, P and Singh, A},
+  journal={Nature, Environment and Pollution Technology},
+  volume={3},
+  number={2},
+  pages={205--208},
+  year={2004}
+}
+
+@article{verma2016managing,
+  title={Managing childhood diarrhoea at homes in India: an opportunity to reduce child morbidity and mortality},
+  author={Verma, Sonia and Kumar, Virendra and Singh, Pushpendra},
+  journal={Infection, Disease \& Health},
+  volume={21},
+  number={4},
+  pages={176--183},
+  year={2016},
+  publisher={Elsevier}
+}
+
+@inproceedings{bhatnagar2022unpacking,
+  title={Unpacking Tensions in Designing Annotation System for Public Toilets to Support Menstrual Mobilities},
+  author={Bhatnagar, Gauri and Singh, Pushpendra and Kumar, Neha and Tuli, Anupriya},
+  booktitle={Proceedings of the 2022 International Conference on Information and Communication Technologies and Development},
+  pages={1--6},
+  year={2022}
+}
+
+@article{singh2022saksham,
+  title={Saksham project BackEnd system},
+  author={Singh, Pushpendra and Gupta, Swati and others},
+  year={2022},
+  publisher={IIIT-Delhi}
+}
+
+@article{rana2021queer,
+  title={Queer HCI in India},
+  author={Rana, Bhavika and Singh, Pushpendra},
+  year={2021},
+  publisher={IIIT-Delhi}
+}
+
+@article{archana2018changing,
+  title={Changing lives of Dalits, the Musahar’s community in Madhepura, Bihar: Socio-economic observation in twenty-first century},
+  author={Archana and Singh, Pushpendra},
+  journal={Contemporary Voice of Dalit},
+  volume={10},
+  number={2},
+  pages={192--203},
+  year={2018},
+  publisher={SAGE Publications Sage India: New Delhi, India}
+}
+
+@article{yasir2015antioxidant,
+  title={Antioxidant and antifungal activity of Glycosmis pentaphylla roots against dermatophytes and yeast-like fungi responsible for various skin ailments},
+  author={Yasir, M and Singh, P and Tripathi, MK and Tayubi, IA and Shrivastava, R},
+  journal={Oxid Commun},
+  volume={38},
+  number={4},
+  pages={1622--31},
+  year={2015}
+}
+
+@phdthesis{singh2010critical,
+  title={A critical study on correlates of personal and professional characteristics of Rural Agricultural Extension Officers with their job performance with special reference to Datia district of Madhya Pradesh},
+  author={Singh, Pushpendra},
+  year={2010},
+  school={RAJMATA VIJAYARAJE SCINDIA KRISHI VISHWA VIDYALAYA}
+}
+
+@inproceedings{mishra2023hindi,
+  title={Hindi Chatbot for Supporting Maternal and Child Health Related Queries in Rural India},
+  author={Mishra, Ritwik and Singh, Simranjeet and Kaur, Jasmeet and Singh, Pushpendra and Shah, Rajiv},
+  booktitle={Proceedings of the 5th Clinical Natural Language Processing Workshop},
+  pages={69--77},
+  year={2023}
+}
+
+@article{el2023feasibility,
+  title={Feasibility and acceptability of Saheli, a WhatsApp Chatbot, on COVID-19 vaccination among pregnant and breastfeeding women in rural North India},
+  author={El Ayadi, Alison M and Singh, Pushpendra and Duggal, Mona and Kumar, Vijay and Kaur, Jasmeet and Sharma, Preetika and Vosburg, Kathryn Bradford and Diamond-Smith, Nadia G},
+  journal={BMJ Innovations},
+  volume={9},
+  number={4},
+  year={2023},
+  publisher={BMJ Specialist Journals}
+}
+
+@article{sharma2016economic,
+  title={Economic analysis of grid connected 40 kW solar photovoltaic system at administration building, DTU},
+  author={Sharma, Pawan and Uppal, Anubhav and Kesari, JP and Singh, Pushpendra},
+  journal={international journal of research and scientific innovation (IJRSI), ISBN},
+  pages={2321--2705},
+  year={2016}
+}
+
+@article{cox2023user,
+  title={User Acceptability and Perceived Impact of a Mobile Interactive Education and Support Group Intervention to Improve Postnatal Health Care in Northern India: A Qualitative Study},
+  author={Cox, Valentina and Sharma, Preetika and Verma, Garima Singh and Gill, Navneet and Diamond-Smith, Nadia G and Duggal, Mona and Kumar, Vijay and Bagga, Rashmi and Kaur, Jasmeet and Singh, Pushpendra and others},
+  journal={Research Square},
+  year={2023},
+  publisher={American Journal Experts}
+}
+
+@article{ahuja2023qualitative,
+  title={A qualitative study to understand sociocultural beliefs around perinatal and neonatal health in rural areas of Mohali, Punjab, India},
+  author={Ahuja, Alka and Duggal, Mona and Liu, Jane Y and Sharma, Preetika and Basavarajappa, Darshan Hosapatna and Bagga, Rashmi and El Ayadi, Alison M and Kankaria, Ankita and Kumar, Vijay and Singh, Pushpendra and others},
+  journal={Frontiers in Global Women's Health},
+  volume={4},
+  year={2023},
+  publisher={Frontiers Media SA}
+}
+
+@article{el2023preliminary,
+  title={Preliminary impact of an mHealth education and social support intervention on maternal health knowledge and outcomes among postpartum mothers in Punjab, India},
+  author={El Ayadi, Alison M and Diamond-Smith, Nadia G and Duggal, Mona and Singh, Pushpendra and Sharma, Preetika and Kaur, Jasmeet and Gopalakrishnan, Lakshmi and Gill, Navneet and Singh, Garima and Ahuja, Alka and others},
+  year={2023}
+}
+
+@phdthesis{tuli2023towards,
+  title={Towards menstrual mobilities and period-positive ecologies},
+  author={Tuli, Anupriya and Singh, Pushpendra and Kumar, Neha},
+  year={2023},
+  school={IIIT-Delhi}
+}
+
+@article{porwal1992study,
+  title={Study on response of sorghum genotypes to levels of nitrogen},
+  author={Porwal, BL and Singh, Pushpendra},
+  journal={Madras Agricultural Journal},
+  volume={79},
+  number={jun-jun},
+  pages={1},
+  year={1992},
+  publisher={Madras Agricultural Students' Union}
+}
+
+@article{singh1977levels,
+  title={Levels and time of nitrogen application in rainfed pearlmillet (Pennisetum typhoides)},
+  author={Singh, P},
+  journal={Madras agricultural journal},
+  year={1977}
+}

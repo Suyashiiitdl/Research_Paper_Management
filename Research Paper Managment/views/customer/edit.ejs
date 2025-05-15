@@ -1,0 +1,454 @@
+<div class="d-flex justify-content-between flex-wrap flex-md nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">TITLE : <%= customer.Title %> </h1>
+    
+    <div class="btn-toolbar md-2 mb-md 0">
+        <div class="btn-group me-2">
+            <button class = "btn btn-sm btn-outline-secondary">?</button>
+        </div>
+    </div>
+</div>
+
+
+<div class="col py-3">
+    <div class="row">
+        <div class="col">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/Dashboard">Dashboard</a></li>
+                    <li class="breadcrumb-item active">Edit Paper</li>
+                </ol>
+            </nav>
+        </div>
+        <div class="col text-end fw-lighter">
+            <b>Last Updated: <%= new Date(customer.updatedAt).toUTCString() %></b>
+            <b>UserID <%= customer._id %></b>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+    <title>Research Paper Registration</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 1000; 
+            padding: 0;
+            /* display: flex; */
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            
+        }
+
+        .container {
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 1000px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-left: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .author-input,
+        .publisher-input {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .author-input input,
+        .publisher-input input {
+            margin-right: 5px;
+        }
+
+        .author-input button,
+        .publisher-input button {
+            background-color: #f44336;
+            margin-left: 5px;
+        }
+
+        .author-input button:hover,
+        .publisher-input button:hover {
+            background-color: #d32f2f;
+        }
+
+
+
+
+
+        .author-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group select {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.label, .author, .author-type, .author-status {
+    margin-bottom: 10px;
+}
+
+.input-group:nth-child(2) {
+    display: flex;
+    align-items: center;
+}
+
+.input-group:nth-child(2) label {
+    margin-right: 10px;
+}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Research Paper Registration</h1>
+        
+        <form id="registrationForm1" action="/you" method="POST" enctype="multipart/form-data">
+            <input type="hidden" name="customerId" value="<%= customer._id %>">
+            <label for="title">Title:</label>
+            <input type="text" id="Title" name="Title" value="<%= customer.Title %>">
+
+            <div id="authorsContainer">
+                <!-- Three author input fields by default -->
+                <div class="author-input">
+                    <input type="text" class="author" name="Authors[]" placeholder="Author name">
+                    <label for="Type">Type</label>
+                    <select name="authorType[]" class="author-type">
+                        <option value="UG">UG</option>
+                        <option value="PG">PG</option>
+                        <option value="Faculty(IIITD)">Faculty(IIITD)</option>
+                        <option value="Faculty(Outside)">Faculty(Outside)</option>
+                    </select>
+                    <label for="Affiliation">Affiliation</label>
+                    <select name="authorStatus[]" class="author-status">
+                        <option value="IIITD">IIITD</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <input type="text" id="aOther" name="aOther" placeholder="Fill College if Affiliation selected Other">
+                    <button type="button" class="remove-author" disabled>-</button>
+                </div>
+                
+            </div>
+
+            <!-- Button to add more authors -->
+            <button type="button" id="addAuthor">Add Author</button>
+
+            <label for="journal">Journal:</label>
+            <input type="text" id="Journal" name="Journal" value="<%= customer.Journal %>">
+
+            <label for="volume">Volume:</label>
+            <input type="text" id="Volume" name="Volume" value="<%= customer.Volume %>">
+
+            <label for="pages">Pages:</label>
+            <input type="text" id="Pages" name="Pages" value="<%= customer.Pages %>">
+
+            <label for="booktitle">Book Title:</label>
+            <input type="text" id="BookTitle" name="BookTitle" value="<%= customer.Booktitle %>">
+
+            <label for="organization">Organization:</label>
+            <input type="text" id="Organization" name="Organization" value="<%= customer.Organization %>">
+
+            <div id="publishersContainer">
+                <!-- Three publisher input fields by default -->
+                <div class="publisher-input">
+                    <input type="text" class="publisher" name="Publishers[]" placeholder="Publisher name" value="<%= customer.Publisher %>">
+                    <button type="button" class="remove-publisher" disabled>-</button>
+                    
+                </div>
+                
+            </div>
+            <!-- Button to add more publishers -->
+            <button type="button" id="addPublisher">Add Publisher</button>
+
+            <label for="number">Number:</label>
+            <input type="number" id="Number" name="Number" value="<%= customer.Number %>">
+
+            <label for="year">Year:</label>
+            <input type="text" id="Year" name="Year" value="<%= customer.Year %>">
+
+            <!-- <label for="publisher">Publisher:</label>
+            <input type="text" id="Publisher" name="Publisher"> -->
+
+            <button type="submit">Update</button>
+            <button type="button" class="btn btn-danger" data-bs-toggle="modal" id="deleteButton" data-bs-target="#deleteModal">Delete Data</button>
+        </form>
+    </div>
+    <div class="modal fade" tabindex="-1" role="dialog" id="deleteModal">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="modal-title">You are about to remove a customer record.</div>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>
+                This will remove the  record of <b class="fw-bold"><%= customer.Title %></b><br/>
+                Are you sure?
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <form action="/edit/<%= customer._id %>?_method=DELETE" method="POST" class="position-relative">
+                <button type="submit" class="btn btn-primary">Yes, Remove Customer</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const addAuthorButton = document.getElementById("addAuthor");
+            const removeAuthorButtons = document.querySelectorAll(".remove-author");
+
+            addAuthorButton.addEventListener("click", function () {
+                const authorsContainer = document.getElementById("authorsContainer");
+                const authorInput = document.createElement("div");
+                authorInput.classList.add("author-input");
+                authorInput.innerHTML = `
+                    <input type="text" class="author" name="Authors[]" placeholder="Author name">
+                    <label for="Type">Type</label>
+                    <select name="authorType[]" class="author-type">
+                        <option value="UG">UG</option>
+                        <option value="PG">PG</option>
+                        <option value="Faculty(IIITD)">Faculty(IIITD)</option>
+                        <option value="Faculty(Outside)">Faculty(Outside)</option>
+                    </select>
+                    <label for="Affiliation">Affiliation</label>
+                    <select name="authorStatus[]" class="author-status">
+                        <option value="IIITD">IIITD</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <input type="text" id="aOther" name="aOther" placeholder="Fill College if Affiliation selected Other">
+                    <button type="button" class="remove-author">-</button>
+                `;
+                authorsContainer.appendChild(authorInput);
+
+                const newRemoveAuthorButton = authorInput.querySelector(".remove-author");
+                newRemoveAuthorButton.addEventListener("click", function () {
+                    authorInput.remove();
+                    // Disable remove buttons if there is only one author input field left
+                    if (document.querySelectorAll(".author-input").length === 1) {
+                        removeAuthorButtons.forEach(button => {
+                            button.setAttribute("disabled", true);
+                        });
+                    }
+                });
+            });
+
+            
+
+            const addPublisherButton = document.getElementById("addPublisher");
+            const removePublisherButtons = document.querySelectorAll(".remove-publisher");
+
+            addPublisherButton.addEventListener("click", function () {
+                const publishersContainer = document.getElementById("publishersContainer");
+                const publisherInput = document.createElement("div");
+                publisherInput.classList.add("publisher-input");
+                publisherInput.innerHTML = `
+                    <input type="text" class="publisher" name="Publishers[]" placeholder="Publisher name">
+                    <button type="button" class="remove-publisher">-</button>
+                `;
+                publishersContainer.appendChild(publisherInput);
+
+                const newRemovePublisherButton = publisherInput.querySelector(".remove-publisher");
+                newRemovePublisherButton.addEventListener("click", function () {
+                    publisherInput.remove();
+                    // Disable remove buttons if there is only one publisher input field left
+                    if (document.querySelectorAll(".publisher-input").length === 1) {
+                        removePublisherButtons.forEach(button => {
+                            button.setAttribute("disabled", true);
+                        });
+                    }
+                });
+            });
+
+        });
+
+    
+         const fetchedPublishers="<%= customer.Publisher %>"
+         // Function to add publisher input fields based on fetched data
+function addPublisherInputs() {
+    const publishersContainer = document.getElementById("publishersContainer");
+    
+    // Clear existing publisher inputs
+    publishersContainer.innerHTML = '';
+
+    // Split the fetchedPublishers string by comma and trim each value
+    const publishersArray = fetchedPublishers.split(',').map(publisher => publisher.trim());
+
+    publishersArray.forEach((publisher) => {
+        const publisherInput = createPublisherInput(publisher);
+        publishersContainer.appendChild(publisherInput);
+    });
+}
+
+// Function to create a publisher input field
+function createPublisherInput(publisherValue = '') {
+    const publisherInput = document.createElement("div");
+    publisherInput.classList.add("publisher-input");
+    publisherInput.innerHTML = `
+        <input type="text" class="publisher" name="Publishers[]" placeholder="Publisher name" value="${publisherValue}">
+        <button type="button" class="remove-publisher">-</button>
+    `;
+
+    const removePublisherButton = publisherInput.querySelector(".remove-publisher");
+    removePublisherButton.addEventListener("click", function () {
+        const publisherInputs = document.querySelectorAll(".publisher-input");
+
+        // Prevent removal if there's only one publisher input left
+        if (publisherInputs.length === 1) {
+            return;
+        }
+
+        publisherInput.remove();
+    });
+
+    return publisherInput;
+}
+
+// Call the function to add publisher inputs
+addPublisherInputs();
+
+const addPublisherButton = document.getElementById("addPublisher");
+const removePublisherButtons = document.querySelectorAll(".remove-publisher");
+
+
+
+// Call the function to add publisher inputs
+addPublisherInputs();
+
+
+
+const addAuthorButton = document.getElementById("addAuthor");
+    const removeAuthorButtons = document.querySelectorAll(".remove-author");
+
+    // Simulated fetched data from the database
+    const fetchedAuthorsData = "<%=customer.Authors%>"; // Replace this with actual fetched data
+    console.log("<%=customer.Authors%>")
+
+    // Split fetchedAuthorsData into an array
+    const fetchedAuthors = fetchedAuthorsData.split(',');
+
+    // Function to add author input fields based on fetched data
+    function addAuthorInputs() {
+        const authorsContainer = document.getElementById("authorsContainer");
+        
+        // Clear existing author inputs
+        authorsContainer.innerHTML = '';
+
+        for (let i = 0; i < fetchedAuthors.length; i += 4) {
+            const authorName = fetchedAuthors[i].trim();
+            const authorType = fetchedAuthors[i + 1].trim();
+            const authorStatus = fetchedAuthors[i + 2].trim();
+            const authorOther = fetchedAuthors[i+3].trim();
+            const authorInput = createAuthorInput(authorName, authorType, authorStatus, authorOther);
+            authorsContainer.appendChild(authorInput);
+        }
+    }
+
+
+ // Function to create an author input field
+ function createAuthorInput(authorName = '', authorType = 'Student', authorStatus = 'Active',authorOther = '') {
+        const authorInput = document.createElement("div");
+        authorInput.classList.add("author-input");
+        authorInput.innerHTML = `
+            <input type="text" class="author" name="Authors[]" placeholder="Author name" value="${authorName}">
+            <select name="authorType[]" class="author-type">
+                <option value="UG" ${authorType === 'UG' ? 'selected' : ''}>UG</option>
+                <option value="PG" ${authorType === 'PG' ? 'selected' : ''}>PG</option>
+                <option value="Faculty(IIITD)" ${authorType === 'Faculty(IIITD)' ? 'selected' : ''}>Faculty(IIITD)</option>
+                <option value="Faculty(Outside)" ${authorType === 'Faculty(Outside)' ? 'selected' : ''}>Faculty(Outside)</option>
+            </select>
+            <select name="authorStatus[]" class="author-status">
+                <option value="IIITD" ${authorStatus === 'IIITD' ? 'selected' : ''}>IIITD</option>
+                <option value="Other" ${authorStatus === 'Other' ? 'selected' : ''}>Other</option>
+            </select>
+            <input type="text" id="aOther" name="aOther" placeholder="Fill College if Affiliation selected Other" value="${authorOther}">
+            <button type="button" class="remove-author">-</button>
+        `;
+
+        const removeAuthorButton = authorInput.querySelector(".remove-author");
+        removeAuthorButton.addEventListener("click", function () {
+            const authorInputs = document.querySelectorAll(".author-input");
+
+            // Prevent removal if there's only one author input left
+            if (authorInputs.length === 1) {
+                return;
+            }
+
+            authorInput.remove();
+        });
+
+        return authorInput;
+    }
+
+
+
+
+    // Call the function to add author inputs
+    addAuthorInputs();
+
+    </script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
